@@ -1,0 +1,10 @@
+python-dotenv
+sentence-transformers
+faiss-cpu
+numpy
+pandas
+rapidfuzz
+tqdm
+jsonlines
+pytest
+transformers
