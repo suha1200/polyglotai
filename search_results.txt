@@ -1,0 +1,11 @@
+Query: Résume les objectifs de la phase 2
+(normalized with lang hint: fr)
+
+Top matches:
+----------------------------------------------------------------------
+rank  score    lang file                           chunk_id
+----------------------------------------------------------------------
+1     0.8495   fr   fr_phase2_goals.md             0       
+2     0.8433   fr   fr_phase2_goals.md             1       
+3     0.8331   en   en_phase2_goals.md             0       
+----------------------------------------------------------------------

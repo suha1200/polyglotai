@@ -1,0 +1,32 @@
+[
+  {
+    "file": "ar_phase2_goals.md",
+    "lang": "ar",
+    "chunk_id": 0
+  },
+  {
+    "file": "ar_phase2_goals.md",
+    "lang": "ar",
+    "chunk_id": 1
+  },
+  {
+    "file": "en_phase2_goals.md",
+    "lang": "en",
+    "chunk_id": 0
+  },
+  {
+    "file": "en_phase2_goals.md",
+    "lang": "en",
+    "chunk_id": 1
+  },
+  {
+    "file": "fr_phase2_goals.md",
+    "lang": "fr",
+    "chunk_id": 0
+  },
+  {
+    "file": "fr_phase2_goals.md",
+    "lang": "fr",
+    "chunk_id": 1
+  }
+]
