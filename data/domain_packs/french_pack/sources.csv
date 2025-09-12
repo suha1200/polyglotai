@@ -1,0 +1,4 @@
+pack_id,lang,title,short_title,year,filename,url,license,captured_at
+french_pack,fr,"Section d’Informatique – Plan d’études et Règlements (EPFL)",epfl_informatique,2020,fr_book_1.pdf,https://www.epfl.ch/schools/ic/,Open University Publication (EPFL academic regulations, public access),2025-09-07
+french_pack,fr,"Introduction à la Cyber Sécurité",cybersecurity_intro,2021,fr_book_2.pdf,https://perso.telecom-paristech.fr/urien/intro_cyber_doc_2021.pdf,Educational (Télécom Paris, academic use),2025-09-07
+french_pack,fr,"Cours d’Informatique Générale",informatique_generale,2022,fr_book_3.pdf,https://www.researchgate.net/publication/361678319,Copyright © Yende R.G. 2022,2025-09-07
