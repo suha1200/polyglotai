@@ -1,0 +1,2964 @@
+                                                                                  2
+
+                                                   TABLE DES MATIERES
+AVERTISSEMENTS .................................................................................................................................. 1
+   ................................................................................................................................................................... 1
+TABLE DES MATIERES........................................................................................................................... 2
+INTRODUCTION ........................................................................................................................................ 4
+CHAPITRE I. GENERALITES SUR L’INFORMATIQUE ..................................................................... 6
+   I.1. Définition .......................................................................................................................................... 6
+   I.2. Historique de l’informatique ....................................................................................................... 7
+   I.3. Subdivision de l’Informatique .................................................................................................... 9
+       I.4.1. Information ........................................................................................................................ 10
+       I.4.2. Données ............................................................................................................................... 10
+       I.4.3. Traitement de l’information ...................................................................................... 10
+       I.4.4. Système informatique ................................................................................................... 11
+       I.4.5. Système d’information ................................................................................................. 12
+   I.5. Langages informatiques ....................................................................................................... 12
+CHAPITRE II. INTRODUCTION A L’ORDINATEUR ......................................................................... 15
+   II.0. Introduction .................................................................................................................................. 15
+   II.1. Définition et contexte d’étude ................................................................................................. 16
+   II.2. Caractéristiques de l’ordinateur. ............................................................................................ 18
+   II.3. Fonctions d'un ordinateur ........................................................................................................ 18
+   II.4. Générations des ordinateurs ................................................................................................... 19
+   II.5. Classification des ordinateurs ................................................................................................ 22
+   II.6. ELEMENTS CONSTITUTIFS DE L’ORDINATEUR ............................................................... 24
+       II.6.1. Architecture matérielle .............................................................................................. 24
+CHAPITRE III. CODAGE ET REPRESENTATION DES INFORMATIONS ................................... 39
+   III.1. Représentation des informations ................................................................................. 39
+   I.2. Représentation des données .............................................................................................. 40
+   III.3. Les systèmes de numération .......................................................................................... 42
+       III.3.1. Le système décimal..................................................................................................... 43
+       III.3.2. Le système binaire ...................................................................................................... 43
+       III.3.3. Le système octal........................................................................................................... 45
+       III.3.4. Le système hexadécimal ........................................................................................... 47
+
+
+
+
+  Prof. Dr. YENDE RAPHAEL Grevisse, PhD.                                                      Cours d’Informatique Générale / UNIBAS
+                                                                          3
+
+   III.4. Codage des caractères ....................................................................................................... 48
+      III.4.1. Le code DCB (Décimal codé binaire). .................................................................. 48
+      III.4.2. Le code Baudot.............................................................................................................. 48
+      III.4.3. Le code ASCII................................................................................................................. 48
+      III. 4.4. Le code EBCDIC........................................................................................................... 49
+CHAPITRE IV. NOTIONS SUR LES SYSTEMES D’EXPLOITATION ........................................... 50
+   IV.1. Définition et contexte d’étude ....................................................................................... 50
+   IV.2. Objectifs des systèmes d’exploitation ........................................................................ 51
+   IV.3 Fonctions d’un système d’exploitation ....................................................................... 51
+   IV.4. Typologie des systèmes d’exploitation ...................................................................... 53
+CHAPITRE V. NOTIONS SUR LES LOGICIELS INFORMATIQUES ............................................. 57
+   V.1. Définition et contexte d’étude ........................................................................................ 57
+   V.2. Caractéristiques d’un bon logiciel.................................................................................. 57
+   V.3. CLASSIFICATION DE LOGICIELS .................................................................................... 59
+CHAPITRE VI. NOTIONS SUR L’INTERNET ET WWW................................................................... 64
+   VI.1. Definition et Context etude ............................................................................................ 64
+   VI.2. Historique de l’Internet..................................................................................................... 64
+   VI.3. Les protocoles utilisés sur Internet ............................................................................. 66
+   VI.4. Finalités de l’Internet ........................................................................................................ 67
+   VI.5. Avantages de l’Internet ..................................................................................................... 68
+   VI.6. Inconvénients de l’Internet ............................................................................................. 69
+   VI.7. Le WWW .................................................................................................................................... 70
+      VI.4.1. Services web ................................................................................................................... 70
+BIBLIOGRAPHIE ................................................................................................................................... 71
+
+
+
+
+  Prof. Dr. YENDE RAPHAEL Grevisse, PhD.                                             Cours d’Informatique Générale / UNIBAS
+                                        4
+
+                              INTRODUCTION
+        De nos jours, l’évolution des nouvelles technologies a donnée naissance
+à un mode de gestion des ressources assez rentable. Vue ses aboutissements et
+la nécessité de faire communiquer les différentes services d’une entreprise ;
+l’informatique est devenu non seulement un monde à part avec son propre
+vocabulaire qui pris des ailes avec le temps mais également l‘informatique est
+de plus en plus obligatoire.
+
+       La nécessité d'aller plus vite et d'être de plus en plus pointu dans le
+traitement de l'information a favorisé l'introduction de l'informatique dans tous
+les domaines d'activités de la vie. Aucun domaine n'échappe aux jours
+d’aujourd’hui à cette révolution technologique, qui au fil des jours s'affiche
+comme un outil indispensable de travail. Le besoin de répartition et de
+disponibilité de l'information à tous les postes des entreprises a entraîné
+l'émergence et la multiplication des réseaux locaux qui entraînent le besoin
+d'interconnexion. Raison pour laquelle un nouveau challenge s'offre aux
+professionnels de l'informatique : celui d'interconnecter les réseaux locaux
+entre eux afin que l'emplacement géographique ne soit plus un handicap pour
+l'accès aux informations.
+
+       Par ailleurs, cette évolution a suscité une révolution de telle manière que
+les informations circulent d’un bout à l’autre du monde en temps record comme
+si nous habitons tous un même endroit. Ainsi, le monde est devenu un petit
+village planétaire. D’où, la nécessité de mobilisation des efforts et ressources
+pour la mise en place des systèmes adéquats afin de rendre disponible et
+accessible les informations par tous, à n’importe quel moment et à n’importe
+quel point du globe terrestre. En effet, grâce aux Nouvelles Technologies de
+l’Information et de la Communication (NTIC) ; les liens entre les entreprises
+deviennent de plus en plus étroits et les métiers se transforment. Ainsi, le
+monde du travail devient de plus en plus petit grâce aux rapprochements issus
+de ces derniers.
+
+      Les progrès de l’informatique rendent possible le traitement des
+informations de façon diversifiée. De plus, les progrès des techniques de
+transmission permettent de transférer sur un même support ces informations
+variées. Les frontières entre les différents réseaux tendent à s’estomper. Par
+exemple, le réseau Internet, initialement destiné exclusivement à la
+transmission de données, transmet dorénavant des communications
+téléphoniques sur les supports mobiles. L’informatique apporte une solution à
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                      5
+
+des besoins de traitement automatisé des informations multiples qui rendent
+foisonnant ce domaine.
+
+       Ce cours d’informatique générale traite des notions fondamentales et
+indispensables pour la compréhension et la maîtrise de la micro-informatique
+afin de permettre à l’étudiant de se familiariser avec les différentes
+terminologies et les techniques de communication moderne. Il sera donc appelé
+à comprendre puis à maîtriser différentes techniques du traitement automatisé
+des informations, ainsi que développer les capacités d’organisation, de
+conception, d’analyse et de gestion des différents types d’informations au sein
+de l’entreprise.
+
+       Notons que ce support ne s‘adresse pas seulement aux débutants en
+informatique mais aussi aux utilisateurs de l‘ordinateur, soucieux de se
+perfectionner dans cette science qui, de plus en plus, devient incontournable
+dans tous les domaines de la vie courante. Ainsi, ce cours prône l’objectif
+principal de donner une vue d’ensemble de l’informatique (le point de vue
+historique, le point de vue des concepts et le point de vue des
+techniques) ; et un aperçu de l’utilité de l’informatique dans son intégration
+dans la vie professionnelle, académique, sociale et personnelle. De manière
+spécifique, ce cours vise à :
+
+
+                                     Dr. YENDE RAPHAEL Grevisse, PhD.
+                            Docteur en Télécoms et Réseaux Informatiques.
+                                           Professeur associé
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.     Cours d’Informatique Générale / UNIBAS
+                                                    6
+
+        CHAPITRE I. GENERALITES SUR L’INFORMATIQUE
+I.1. Définition
+          Contrairement à la plupart des disciplines scientifiques, il n’existe pas
+d’équivalent anglais du terme français informatique. Ce terme revêt plutôt deux
+sens chez les anglophones :
+    − Electronic Data Processing (traitement électronique de données), met
+      l’accent sur l’objet manipulé ; il s‘agit du côté pratique ;
+    − Computer Science (science de l’ordinateur), met en évidence la machine
+      qui permet la manipulation de l’information. C’est un aspect théorique.
+      Le mot « Informatique »1 a été proposé officiellement par l’ingénieur
+français Philippe DREYFUS en 1962 (normalisé en 1966), Cependant, une
+controverse relate que le mot « informatique » a été pour la première fois
+prononcé par l’ingénieur allemand KARL STEINBUCH en 1957.
+
+      Par ailleurs, En juillet 1968 le mot fût repris dans le discours d'un
+ministre allemand, M. STOLTENBERG, sous la forme germanisée « informatik
+». De fil en aiguille le mot s'est rapidement répandu dans plusieurs pays
+d'Europe : « informática » en Espagne et au Portugal ; « informatica » en
+Hollande et en Italie ; « informatik » en Norvège ; « informatika » en Hongrie,
+Russie et Slovaquie.
+       Les anglo-saxons et américains préfèrent généralement le terme
+« computer science – science des ordinateurs » mais le terme « informatics »
+est parfois usité en Grande-Bretagne et certains pays francophones. Par
+ailleurs, Le terme « informaticien » est donc un terme générique désignant une
+personne dont le travail est en grande partie lié à l'informatique.
+
+        L’informatique est un mot valise composé de deux concepts :
+Information et Automatique. Ainsi donc, l’informatique peut être considérée
+comme une automatisation de l'information, ou plus exactement un
+traitement automatique de l'information. L'information désigne ici tout ce
+qui peut être traité par une machine (textes, nombres, images, sons, vidéos...).
+L'outil utilisé pour traiter l'information de manière automatique s'appelle un
+ordinateur.
+
+
+
+1 En 1957, Ingénieur allemand KARL STEINBUCH crée le terme « Informatik » pour
+son essai intitulé « Informatik: Automatische Informationsverarbeitung », pouvant être rendu en
+français par « Informatique : traitement automatique de l'information » … En mars 1962, Ingénieur
+français Philippe Dreyfus, ancien directeur du Centre national de calcul électronique de BULL, utilise pour
+la première fois en France le terme « Informatique » pour son entreprise « Société d'informatique
+appliquée ».
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.                     Cours d’Informatique Générale / UNIBAS
+                                                7
+
+       Selon la définition acceptée par l’Académie Française : « l’informatique
+est une « science du traitement rationnel, notamment par machines automatiques,
+de l'information considérée comme le support des connaissances humaines et des
+communications dans les domaines techniques, économiques et sociaux ».
+       Selon I.B.M (International Business Machine), « l‘informatique est
+définie comme étant l‘ensemble de disciplines techniques et scientifiques
+spécialement applicables à la conception et à l‘utilisation des machines de
+traitement de l‘information et l’ordinateur est l’outil privilégié ».
+       Dans le contexte de ce cours, « l’informatique est la science du stockage,
+du traitement et de la transmission de l’information ». Et donc, elle désigne trois
+concepts : une science, un art et une technique.
+     − Elle est une science quand elle est orientée vers la recherche de la vérité.
+       Ici, elle est la science renfermant les normes et techniques de traitement de
+       l’information. Ces normes et techniques sont de règles de jeu qui
+       permettent à l’informatique d’automatiser l’information 2. Pour arriver à son
+       objectif ; l‘informatique utilise un outil appelé « l‘ordinateur ».
+
+     − Elle est une technique dans la mesure où c‘est une application de
+       l’électronique.
+     − Elle est un art parce qu’elle permet à l’esprit humain à se révéler c.à.d. le
+       génie humain.
+
+I.2. Historique de l’informatique
+
+      L’histoire de l'informatique est l’histoire de la science du traitement
+rationnel, notamment par machines automatiques, de l'information considérée
+comme le support des connaissances humaines et des communications dans
+les domaines techniques, économiques et sociaux et professionnelle.
+      L'histoire de l'informatique a commencé bien avant la discipline moderne
+des sciences informatiques, généralement par les mathématiques ou la
+physique. Les développements des siècles précédents ont évolué vers la
+discipline que nous connaissons aujourd'hui sous le nom d'informatique. Cette
+progression, des inventions mécaniques et des théories mathématiques vers les
+concepts et les machines informatiques modernes, a conduit au développement
+d'un domaine académique majeur, à un progrès technologique spectaculaire à
+travers le monde occidental et à la base d'un commerce et d'une culture
+mondiale massive. Chronologiquement, voici quelques dates importantes :
+
+2 Automatiser un service revient à lui donner des règles de gestion des informations qui y
+circulent. Informatiser un service va plus loin que le simple fait d‘automatiser par le fait qu‘en
+plus d‘automatisation ; on lui dompte de l‘outil qui est l‘ordinateur.
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.             Cours d’Informatique Générale / UNIBAS
+                                        8
+
+− Vers 500, les civilisations méditerranéennes utilisent l’abaque pour effectuer
+  des calculs, tandis que le boulier est d’usage en Chine et au Japon.
+
+− En 1614, NEPER présente sa théorie des logarithmes : les tables de Neper
+  permettent de transformer des multiplications compliquées en simple
+  additions.
+− En 1641, Blaise PASCAL (âgé alors de 19 ans) invente la machine à calculer
+  nommée « Pascaline » ne pouvant effectuer que deux opérations (l’addition
+  et la soustraction) avec des nombres de 6 chiffres, destinée à aider son
+  père qui était percepteur.
+
+− En 1673, Gottfried Wilhelm LEIBNIZ (1646-1716) modifia la « Pascaline »
+  en y ajoutant la multiplication, la division ainsi que l’extraction de la
+  racine carrée. LEIBNIZ inventa aussi le système binaire, système de
+  numération qui sera approprié aux futurs ordinateurs.
+
+− En 1728, l’ingénieur Français FALCON construisit une commande de
+  métier à tisser à l’aide d’une planchette de bois muni de trous. Il s’agit de la
+  première machine capable d’exécuter un programme.
+
+− En 1806, Joseph Marie JACQUARD perfectionne le système de FALCON en
+  remplaçant les planches par des cartes perforées.
+
+− En 1812, le mathématicien anglais Charles BABBAGE (1792-1871) conçoit
+  une machine différentielle et appareil mécanique pouvant effectuer des
+  calculs mathématiques simples avec une précision pouvant atteindre 31
+  chiffres. Il fut abandonné cette construction pour des raisons financières.
+  Plus tard, il conçoit une machine analytique à cartes perforées afin
+  d’effectuer des calculs plus compliqués. Cette réflexion sur la mécanisation
+  du calcul annonce l’informatique.
+
+− En 1936, Alan Turing infirme la théorie de Kurt GODEL et démontre qu’on
+  ne peut pas tout calculer de manière automatique. Il imagine pour sa
+  démonstration un outil qui inspire encore le fonctionnement de nos
+  ordinateurs. Une machine universelle qui manipule des informations des
+  lettres ou des chiffres suivant des règles définies dans une table. C’est la
+  machine de Turing.
+− En 1937 : la mise au point de Mark I d'IBM (International Business
+  Machines) permet de calculer 5 fois plus vite que l'homme. Il est constitué de
+  3300 engrenages, 1400 commutateurs et 800 km de fil. Les engrenages
+  seront remplacés en 1947 par des composants électroniques.
+− En 1943 : le Colossus 1 est mis au point en Angleterre, durant la Deuxième
+  guerre mondiale.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                        9
+
+− En 1948 : Invention du transistor qui va permettre de rendre les
+  ordinateurs moins encombrants et moins coûteux.
+− En 1949 : mise au point de l’UNIVAC (UNIVersal Automatic Computer). Il
+  utilise des bandes magnétiques en remplacement des cartes perforées. Il est
+  composé de 5000 tubes, sa mémoire est de 1000 mots de 12 bits, il peut
+  réaliser 8333 additions ou 555 multiplications par seconde. Sa superficie au
+  sol est de 25m².
+
+− En 1958 : mise au point du circuit intégré, qui permet de réduire encore la
+  taille et le coût des ordinateurs.
+
+− En 1960 : la mise au point du premier ordinateur à base de transistors :
+  l’IBM 7000.
+
+− Aujourd'hui..., les ordinateurs parlent, entendent, voient et se déplacent.
+  Et au XXIème siècle...des ordinateurs qui pensent. Cependant, les
+  chercheurs américains partent du principe que les ordinateurs actuels,
+  même les plus puissants, ne seront jamais aussi intelligents qu'un cerveau
+  vivant. Il faut donc inventer des ordinateurs capables de penser par eux-
+  mêmes et plus seulement d'exécuter un programme écrit par l'homme.
+
+I.3. Subdivision de l’Informatique
+        L’informatique qui est née de la physique, l’électronique, Mathématiques
+et autres domaines très complexes de la science est une science à l’intérieur de
+laquelle, on dénombre plusieurs disciplines, dont on subdivisera en cinq
+domaines :
+1. L’informatique formelle (Analytique) : c’est un domaine qui s’applique à la
+   résolution des problèmes mathématiques. C’est grâce à ce domaine que
+   l’informatique peut résoudre les problèmes tels que : les calculs d’erreurs,
+   les tissages des courbes, les problèmes statistiques (moyennes, écart-type,
+   variances, corrélations, …)
+2. L’informatique systématique et logique : c’est un domaine qui étudie les
+   architectures des systèmes informatiques dans lesquelles interviennent les
+   ordinateurs, les réseaux d’interconnexions des ordinateurs, …
+3. L’informatique physique et technologique : c’est un domaine qui étudie
+   les différentes réalisations des composants et sous-ensembles électroniques,
+   électriques et mécaniques qui entrent dans la réalisation des matériels des
+   ordinateurs et de leurs périphériques.
+4. L’informatique méthodologique : c’est un domaine qui s’occupe de la
+   recherche sur les méthodes de programmation et d’exploitation des systèmes
+   informatiques. C’est dans ce contexte, qu’il faut placer le « génie logiciel ».
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                         10
+
+5. L’informatique appliquée (à un domaine particulier) : c’est un ensemble
+   des sous-domaines non-répertoriés ; on y trouve : La conception assistée par
+   un ordinateur, informatique documentaire, informatique de gestion
+   (administrative, commerciale, industrielle, financière), automatisation de la
+   production (application industrielle), télécommunication, informatique
+   médicale, informatique juridique et jurisprudence, intelligence artificielle,
+   Musique assistée par l’ordinateur, Enseignement assisté par ordinateur, etc.
+
+I.4. Système informatique et Système d’information
+I.4.1. Information
+       Une « information » est tout élément de connaissance représentés par
+des signes et symboles de manière conventionnelle pour être conservé, traité ou
+communiqué. En informatique de gestion, une « information » est la
+représentation subjective d’un fait, d’une situation, d’un évènement sous forme
+conventionnelle qui en assure la permanence et facilite le maniement ainsi que
+la transformation. Elle est l‘ensemble de l‘entité, l‘attribut ainsi que les valeurs.
+
+I.4.2. Données
+       Par contre, Une « donnée » est une unité élémentaire dans le processus
+de prise de décision. C'est un renseignement sur un sujet donné. Elle peut être
+comprise comme un fait, une notion ou une instruction représentée sous forme
+conventionnelle convenant à la communication, à l‘interprétation, ou à un
+traitement par l‘homme ou par des moyens automatiques. La donnée peut être
+écrite ou audible
+       En informatique, le concept information est compris comme l‘ensemble
+de données pouvant être traitées par un système informatique. Autrement dit,
+c’est la représentation des informations au moyen d’un ordinateur.
+
+I.4.3. Traitement de l’information
+En informatique, traiter l‘information signifie :
+− Recueillir l’information : On dispose de deux grandes sources
+  d‘alimentation en informations : les sources internes et les sources externes.
+  Face à ces sources d‘information le système d‘information remplit les tâches
+  d‘écoute, d‘analyse et de saisie. La tâche d‘écoute se double généralement
+  d‘une tâche d‘analyse critique de la masse d‘information accessibles afin
+  d‘éliminer toute source d‘information et toute information peu pertinente ou
+  de qualité insuffisante. Ce n‘est qu‘après ces tâches, qu‘elle peut procéder à
+  l‘encodage des informations.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                          11
+
+− Mémoriser l’information : Une foi saisie, l‘information doit être stockée de
+  manière durable et stable bien que parfois, elle est stockée au fur et à
+  mesure de la saisie. Le système d‘information met en œuvre des moyens
+  techniques et organisationnels (méthodes d‘archivage, de protection contre
+  le piratage ou la destruction, etc.). Aujourd‘hui la mémorisation des
+  informations se fait au moyen de deux techniques principales : les fichiers et
+  les bases de données.
+− Exploiter l’information : Une fois mémorisée, l‘information, on peut
+  appliquer à l‘information tout une série d‘opérations. Ces opérations de
+  traitement consistent à :
+
+      Consulter les informations : les rechercher, les sélectionner, …
+      Organiser les informations : les trier, les fusionner, les partitionner, …
+      Mettre à jour les informations : les modifier (sur la forme et le
+         contenu), les supprimer, etc.
+      Produire de nouvelles informations : informations calculées (suite à de
+         calculs arithmétiques ou de calculs logiques) cumuls, etc.
+− Diffuser l’information : La diffusion consiste à mettre à la disposition de
+  ceux qui en ont besoin, au moment où ils en ont besoin et sous une forme
+  directement exploitable, l‘ensemble des informations qui leur permettront
+  d‘assurer leurs activités. Les supports de cette diffusion sont soit le support
+  oral, le support papier, le support électronique ou magnétique
+
+I.4.4. Système informatique
+       Un système informatique se compose d‘une part du matériel
+ informatique (ordinateur ou hardware), d‘autre part des programmes (logiciel ou
+ software) et des hommes indispensables au fonctionnement du matériel. Un
+ système informatique est donc composé des éléments suivants :
+
+ L’ordinateur et ses périphériques : ou Hardware : C‘est la partie
+   palpable de l‘ordinateur ou sa quincaillerie.
+
+ Les logiciels et programmes d’application : ou Software : C‘est la
+   partie invisible qui est la suite d‘instructions permettant à l‘utilisateur de
+   communiquer avec l‘ordinateur.
+ L’homme : C‘est l‘élément le plus important du système informatique. Il se
+   compose de tout ce monde chargé de manipuler l‘ordinateur en vue de profiter
+   de sa puissance pour des buts précis. Ce sont donc « les utilisateurs ». Nous pouvons
+   représenter l'ordinateur comme étant un SYSTÈME.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.          Cours d’Informatique Générale / UNIBAS
+                                        12
+
+I.4.5. Système d’information
+        A ne pas confondre avec système informatique, le SI d‘entreprise est
+l‘ensemble d‘informations qui circulent dans l‘entreprise et les moyens mis en œuvre
+pour les gérer. Toutes les informations, quelle que soit leur forme, font partie du
+système d ‘information. Nous attendons par gérer, le recueil, l‘exploitation, le
+stockage et la diffusion des informations.
+      Il apparaît, à la lumière de cette définition, que l‘information est un des
+éléments capitaux constituant les préoccupations d‘un système d‘information.
+Elle mérite donc l‘attention des chercheurs en informatique.
+      Ainsi donc, Il existe plusieurs typologies de SI, cependant nous nous
+intéressons à distinguer le SI automatisé du SI manuel.
+ − Le SI manuel est celui dont les opérations sur les informations sont
+    manuelles et ne font pas recours aux machines.
+
+ − Semi-automatique fait allusion à la saisie, à la consultation ou
+   visualisation, à la mise à jour des informations. Dans ce cas les
+   interventions de l‘homme et de la machine sont conjointes. On parle alors
+   de traitement interactif ou conversationnel où les opérations sont assurées
+   grâce à un dialogue entre l’homme et la machine.
+ − Le SI automatisé, les opérations les plus significatives sur les informations
+   sont assurées par des machines électroniques programmables effectuant
+   des traitements automatiques. L‘intervention humaine se limite à une
+   phase de préparation du travail des machines. Exemple : gestion comptable
+   réalisée grâce à un progiciel spécifique. Quand on parle de SI automatisé, il
+   faut nuancer l‘importance du rôle joué par la machine et la place de
+   l‘homme. Dans ce SI, le processus automatique ainsi que le processus
+   semi-automatique se côtoient. Automatique fait allusion aux calculs
+   répétitifs, calculs complexes, mémorisation des données, édition des
+   documents comptables, des états de sorties, etc.
+
+I.5. Langages informatiques
+      On appelle « langage informatique » un langage destiné à décrire
+l'ensemble des actions consécutives qu'un ordinateur doit exécuter. Les
+langages naturels (par exemple l'anglais ou le français) représentent l'ensemble
+des possibilités d'expression partagé par un groupe d'individus. Les langages
+servant aux ordinateurs à communiquer n'ont rien à voir avec des langages
+informatiques, on parle dans ce cas de protocoles de communication, ce sont
+deux notions totalement différentes. Un langage informatique est une façon
+pratique pour nous (humains) de donner des instructions à un ordinateur. Un
+langage informatique est rigoureux : à chaque instruction correspond une
+action du processeur.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                       13
+
+      La principale différence entre les langages informatiques et les langues
+naturelles réside dans l’absence d’ambiguïté : alors que certaines phrases du
+français peuvent être interprétées différemment par différents auditeurs, tous
+seront d’accord pour dire ce que fait un programme donné.
+        Le langage utilisé par le processeur, c'est-à-dire les données telles
+qu'elles lui arrivent, sont appelées langage machine. Il s'agit d'une suite de 0
+et de 1 (dit binaire). Toutefois le langage machine n'est pas compréhensible
+facilement par l'humain. Ainsi il est plus pratique de trouver un langage
+intermédiaire, compréhensible par l'homme, qui sera ensuite transformé en
+langage machine pour être exploitable par le processeur.
+      L'assembleur est le premier langage informatique qui ait été utilisé. Celui-
+ci est encore très proche du langage machine mais il permet déjà d'être plus
+compréhensible. Toutefois un tel langage est tellement proche du langage
+machine qui dépend étroitement du type de processeur utilisé (chaque type de
+processeur peut avoir son propre langage machine). Ainsi un programme
+développé pour une machine ne pourra pas être porté sur un autre type de
+machine (on désigne par le terme « portable », un programme qui peut être
+utilisé sur un grand nombre de machines). Pour pouvoir l'utiliser sur une autre
+machine il faudra alors parfois réécrire entièrement le programme. Un langage
+informatique a donc plusieurs avantages :
+   − Il est plus facilement compréhensible que le langage machine ;
+
+   − Il permet une plus grande portabilité, c'est-à-dire une plus grande facilité
+      d'adaptation sur des machines de types différents.
+      C’est pour répondre aux problèmes de l’assembleur qu’ont été développé
+dès les années 50 des langages de plus haut niveau. Dans ces langages, le
+programmeur écrit selon des règles strictes mais dispose d’instructions et de
+structures de données plus expressives qu’en Assembleur.
+   Langage      Domaine d'application principal
+                (ALGOrithmic Language), écrit à la fin des années 1950.
+   ALGOL        Son objectif était de décrire algorithmiquement des
+                problèmes de programmation.
+                (Beginner’s All-Purpose Symbolic Instruction Code), écrit
+                en 1963 par John KEMMENY et Thomas KURTZ. Conçu
+   BASIC
+                pour permettre aux étudiants ne travaillant pas dans les
+                filières scientifiques d’utiliser les ordinateurs.
+                (COmmon Business Oriented Language), développé en
+   COBOL        1959. C’est un langage commun pour la programmation
+                d’applications de gestion.
+                (FORmula TRANSlator), développé par Jim BACKUS en
+                1954. C’est un langage de programmation utilisé
+   FORTRAN
+                principalement en mathématique et dans les applications de
+                calculs scientifiques.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                     14
+
+  JAVA        (Nom vulgaire) Programmation orientée Internet.
+              (Jules Own Version of the International Algebric
+  JOVIAL      Language), écrit par Jules SCHWARTZ en 1960. Langage
+              destiné aux scientifiques.
+              (MAThs LABoratorie) Conçu par Cleve MOLER à la fin des
+  MATLAB
+              années 1970, il est utilisé dans les calculs mathématiques.
+              (List Processor), créé par Mac CARTHY en 1958. Il est
+  LISP
+              utilisé en intelligence artificielle.
+              Ecrit en 1971 par Nicklaus WIRTH en hommage à Blaise
+  Pascal      PASCAL. Il a été conçu pour servir à l’enseignement de la
+              programmation.
+              (PROgrammation          LOGique),     développé   par   Alain
+  PROLOG      COLMERAUER et Philippe ROUSSEL en 1972. Il est utilisé
+              dans des nombreux programmes d’intelligence artificielle.
+
+
+
+
+Prof. Dr. YENDE RAPHAEL Grevisse, PhD.     Cours d’Informatique Générale / UNIBAS
+                                         15
+
+         CHAPITRE II. INTRODUCTION A L’ORDINATEUR
+II.0. Introduction
+       L‘ordinateur a été appelé « outil intelligent », car il augmente notre
+habileté à exécuter des tâches exigeant l‘activité mentale. Plus encore, il le fait
+avec une rapidité extraordinaire. La clé de l‘utilisation effective à bon escient de
+l‘ordinateur comme un outil est de connaître ce qu‘il est, comment il fonctionne
+et comment l‘utiliser.
+      Par ailleurs, cette agilité est rendu possible grâce à l’informatique
+(INFORMAtion automaTIQUE) consiste à rassembler et transformer diverses
+informations à l’aide d’un (ou plusieurs) ordinateur(s) afin d’obtenir la solution
+d’un problème :
+   − Les informations utiles doivent être disponibles pour l’ordinateur, donc
+     être collectées, clairement codifiées, saisies et enregistrées sur un
+     support informatique (une « mémoire ») ;
+   − Le problème à résoudre doit avoir été analysé avec précision, la façon d’en
+     obtenir la solution doit avoir été traduite sous la forme d’un programme.
+      L’ordinateur est une machine électronique qui inclue des dispositifs
+optiques, électromécaniques ou électromagnétiques et dont le fonctionnement
+est guidé par des programmes réalisés par l’homme :
+   − Un ordinateur est inerte en l’absence d’alimentation électrique ou de
+     programme ;
+   − Son « QI » (quotient intellectuel) est NUL et il est incapable d’initiative ;
+   − L’ordinateur est un outil complexe. Il est encore nécessaire d’en connaître
+     le fonctionnement pour bien l’utiliser.
+      L’ordinateur fonctionne aujourd’hui comme à ses débuts. C’est une
+machine qui travaille sur des données binaires (représentées symboliquement
+par des suites de 0 et de 1) de manière séquentielle et au rythme d’une horloge
+interne :
+   − Dans l’ordinateur, toute information est représentée par une suite de
+     bits. Un bit (abréviation de BInary digiT) représente une valeur choisie
+     parmi deux possibilités (symbolisées par 0 et 1, mais concrétisées par un
+     phénomène physique à deux état stables comme « allumé-éteint », « 0
+     volts – 3 volts », « aimantation nord ou sud », « courant passant ou bloqué
+     », etc. …) ;
+   − À chaque « top » d’horloge, il y a modification d’une série de bits
+     représentant les données en cours de traitement ;
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                       16
+
+   − Entre deux tops d’horloge, l’ordinateur est improductif.
+      Des conventions permettent d’effectuer la codification des informations
+en binaire, et inversement. Par exemple :
+   − 0101 représente la valeur 5 en binaire pur sur 4 bits (valeur que l’on
+     retrouve en effectuant le calcul 0x23+1X22+0x21+1x20 =5, 2 étant la base
+     de numération binaire) ;
+
+   − 01010001 représente la lettre Q (majuscule) sur 8 bits, en code ASCII
+     (American Standard Code for Information Interchange)
+
+II.1. Définition et contexte d’étude
+       Un ordinateur est un ensemble de circuits électroniques permettant de
+manipuler des données sous forme binaire, c'est-à-dire sous forme de bits. Le
+mot « ordinateur » provient de la société IBM France. François Girard, alors
+responsable du service promotion générale publicité de l'entreprise IBM France,
+eut l'idée de consulter son ancien professeur de lettres à Paris, afin de lui
+demander de proposer un mot caractérisant le mieux possible ce que l'on
+appelait vulgairement un « calculateur » (traduction littérale du mot anglais «
+computer »). Ainsi, Jacques Perret, agrégé de lettres, alors professeur de
+philologie latine à la Sorbonne, proposa le 16 avril 1955 le mot « Ordinateur »
+en précisant que le mot « Ordinateur » était un adjectif provenant d‘Emile Littré
+(Lexicographe Français du 19ème siècle) signifiant « Dieux mettant de l'ordre
+dans le monde ». Ainsi, il expliqua que le concept de « mise en ordre » était
+tout à fait adapté.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.      Cours d’Informatique Générale / UNIBAS
+                                      17
+
+     L’ordinateur n’a ni forme ni couleur. Si vous consultez un dictionnaire
+imprimé avant 1940, vous serez surpris de trouver que l‘ordinateur est défini
+comme une personne” effectuant des calculs. En outre, bien que d‘autres
+machines font des calculs, elles n‘ont jamais été appelées des ordinateurs mais
+plutôt des calculatrices. La définition du terme « ordinateur » commença à
+changer à partir de 1940 lorsque le premier « electronic computing devise »
+fut développé aux USA planifié par JOHN VON NEWMAN qui est le premier à
+utiliser les mot « automatic computing system » raccourci plus tard à
+« computer » ou « computer system ». Ainsi, pour John Von Newman,
+l’ordinateur est une machine qui accepte les entrées, stocke les résultats du
+traitement et donne des sorties.
+
+
+
+
+         L‘ordinateur exécute toutes ces opérations non à cause d‘une
+intelligence super humaine, mais par ce qu‘il peut exécuter des opérations
+extrêmement simples avec précision et rapidement selon un processus ou
+programme qui est dicté par l‘homme (le programmeur). D‘où, d‘une
+intelligence par procuration, l‘ordinateur ne peut calculer ou prendre des
+décisions logiques seulement lorsqu‘il a reçu des consignes qu‘il revient à
+l‘homme de définir.
+       En français, ce néologisme fut créé en 1956 par Jacques Perret sur
+proposition d‘IBM pour désigner un calculateur (dans certaines traductions de
+l‘anglais on lira parfois le mot calculateur pour désigner un ordinateur) et
+désigne une machine programmable capable d‘effectuer un traitement de
+l‘information. Un ordinateur est donc constitué au minimum de :
+   − Une unité centrale (pour l‘exécution des programmes) ;
+   − Une mémoire centrale (pour le stockage des données et des logiciels en
+     cours d‘exécution) ;
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.     Cours d’Informatique Générale / UNIBAS
+                                        18
+
+   − Des périphériques d’entrée / sorties (pour la communication entre
+     l‘utilisateur et la machine).
+
+II.2. Caractéristiques de l’ordinateur.
+    Si nous inscrivons l‘ordinateur dans l‘ensemble de tous les outils
+électroniques, il convient de l‘en différencier en lui donnant ses caractéristiques
+les plus particulières. Il est caractérisé par :
+
+   − La rapidité et exactitude : Pour calculer la moyenne de trois nombres
+     jusqu‘à sept chiffres après la virgule, un homme mettra plus d‘une
+     minute, tandis que l‘ordinateur peut calculer la moyenne de plus de 100
+     millions en moins de deux secondes. Plus encore l‘ordinateur sera correct
+     et exact.
+
+   − La capacité la souplesse : Ceci se dit du volume des données que peut
+     stocker la mémoire d‘un ordinateur. Un ordinateur peut stocker et savoir
+     restituer tous les répertoires de toutes les lignes téléphoniques d‘une ville
+     ou d‘un pays.
+   − L’adaptabilité : l‘ordinateur s‘adapte à presque tous les besoins de
+     l‘utilisateur pourvu que ce dernier sache comment s‘y prendre. Un même
+     ordinateur peut être utilisé pour : imprimer les états financiers d‘une
+     banque, dessiner les traits d‘un croquis, calculer les paris impairs,
+     calculer des orbites, des satellites, calculer les statistiques d‘une
+     population, contrôler une guerre, surveiller des malades à l‘hôpital,
+     combiner les aspirations des amoureux, assurer la communication, …
+
+II.3. Fonctions d'un ordinateur
+     Un ordinateur possède trois grandes catégories de fonctions : Calculer ;
+Gérer des données et Communication.
+− Calculer : C'est la tâche pour laquelle l'ordinateur a été conçu au départ.
+  D'ailleurs, le nom anglais de l'ordinateur, « computer », signifie en français «
+  calculateur ». La fonction de calcul d'un ordinateur ne se limite pas à
+  l'utilisation de la calculette, d'un tableur ou à l'exécution de programmes de
+  calculs scientifiques. Il y a en fait du calcul dans toutes les opérations que
+  réalise un ordinateur :
+       L'affichage d'une page web ou d'un document réalisé avec un traitement
+        de texte ;
+       Le codage et le décodage des informations stockées dans les fichiers ;
+       La gestion des communications avec d'autres ordinateurs sur un
+        réseau...
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                       19
+
+        Par exemple, lorsque l'on rédige une lettre dans un traitement de texte,
+celui-ci doit être capable de transformer l'ensemble de son contenu (ici, le texte
+et sa mise en forme) en une suite de nombres que l'ordinateur peut ensuite
+stocker ou manipuler. Cette opération, appelée « codage de l'information », est
+l'une des nombreuses opérations de calcul nécessaires au fonctionnement des
+différents programmes.
+− Gérer des données : Lorsque vous utilisez un ordinateur, vous avez souvent
+  besoin de conserver les résultats de votre travail. C'est par exemple le cas si
+  vous rédigez votre CV, utilisez un outil de messagerie ou travaillez sur un
+  logiciel de retouche d'image. Dans toutes ces situations, une fois votre
+  travail terminé, vous souhaitez que l'ordinateur puisse enregistrer les
+  données correspondantes, et vous les restituer ultérieurement. Quels que
+  soient les éléments de l'ordinateur où ce stockage aura lieu, il est
+  nécessaire de mettre en forme ces données et de les organiser, pour que
+  vous puissiez les retrouver au milieu de l'ensemble des autres données
+  également stockées au même endroit.
+− Communiquer : Un ordinateur peut communiquer soit avec un utilisateur,
+  soit avec un autre ordinateur. La fonction de communication ne consiste
+  donc pas uniquement à échanger des informations sur Internet. Cette
+  utilisation de l‘ordinateur est d‘ailleurs la plus récente, puisqu‘elle ne s‘est
+  réellement développée qu‘avec l‘essor du Web, dans les années 1990. En
+  revanche, quelle que soit la tâche que vous réalisez avec votre ordinateur,
+  vous passez votre temps à interagir avec lui, soit pour lui donner des
+  ordres, soit pour prendre connaissance des résultats. Dans ce cadre, un
+  grand nombre d‘éléments, matériels et logiciels, font partie de l’interface
+  homme-machine, qui permet la communication entre l‘utilisateur et
+  l‘ordinateur. Les principales notions qui permettent de comprendre en quoi
+  consiste une interface homme-machine sont définies dans la section «
+  communication avec un ordinateur ».
+
+II.4. Générations des ordinateurs
+II.4.1. Génération zéro : le relais électromécanique (1930-1945)
+         Dès 1936, Konrad Ernest Otto ZUSE fabrique les machines
+électromécaniques Z1 et Z2, fonctionnant selon le système binaire. Il propose
+en 1938 la construction d’un calculateur électronique, mais l’Etat allemand
+juge le projet irréalisable, et refuse le financement. ZUSE construisit alors un
+calculateur binaire universel avec 2.600 relais des circuits logiques, le Z3,
+achevé en 1941. Il est utilisé en aéronautique et en balistique. De l’autre côté
+de l’atlantique, le professeur Howard Hathaway AIKEN (1900-1973) réalise
+pour le compte d’IBM et de l’Université de Harvard (Harvard University), une
+machine électromécanique appelée Automatic Sequence Controlled
+Calculator surnommée le Mark I. Réalisé entre 1939 et 1944, ce calculateur
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                       20
+
+avait 16m de long, 2m60cm de hauteur, un poids avoisinant 5 tonnes et
+pouvait multiplier deux nombres de 23 chiffres décimaux en 6 secondes. Il sera
+utilisé à des fins militaires notamment à la mise au point de la bombe
+atomique.
+       D’autres chercheurs réalisèrent, pendant cette période, des prototypes
+de calculateurs. Parmi eux, citons John ATANASOFF (université de l’IOWA) et
+George STIBITZ (Bell Laboratories), qui tous deux adoptèrent le système
+binaire.
+II.4.2. Première Génération : le tube à vide (1945-1955)
+        Le tube à vide est une ampoule vidée d’air contenant plusieurs
+électrodes entre lesquelles apparaît, sous certaines conditions, un courant
+d’électrons. Exemple : diode à vide.
+       En 1943, COLOSSUS le premier calculateur électronique numérique est
+construit, et littéralement porté par Alan TURING pour permettre le décryptage
+des messages radios transmis par les forces de l’axe, et codés au moyen de la
+fameuse machine ENIGMA (elle permettait de coder des informations).
+         Dans l’optique de réglage des tirs d’artillerie, en 1943 l’armée
+américaine accepta de financer les travaux de John Presper ECKERT et John
+MAUCHLY qui aboutirent à la réalisation d’une machine pour le moins célèbre :
+l’ENIAC. Celle-ci (Electronic Numerical Integrator And Computer) était
+capable de 5.000 opérations arithmétiques à la seconde et était 1.000 fois
+rapide que le mark I. Pour fonctionner, il fallait une puissance électrique de
+près de 200Kw, comportait 19.000 lampes, pesait 30 tonnes et occupait un
+espace de 160 m2 au sol. Un jour, en 1947, l’ENIAC tomba en panne sans que
+ses constructeurs ne sachent pourquoi. Après exploration, on constata qu’un
+insecte s’était logé dans un relais ; le technicien qui a fait la découverte s’est
+écrié : « There is a bug in the machine ». Le nom « bug » est resté pour
+désigner une « erreur de matériel ou de programmation ».
+      II.4.3. Deuxième génération : le transistor (début de l’industrie
+                        informatique ; 1955-1965)
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                     21
+
+        Le transistor, inventé par les laboratoires Bell en 1948, par John
+BARDEEN, Walter BRATTAIN et William SHOCKLEY, est utilisé dans les
+ordinateurs, en remplacement des tubes à vide si encombrants, coûteux et peu
+fiables. C’est un dispositif électronique pouvant remplir les fonctions d’un
+amplificateur,   d’un    commutateur     ou   d’un    oscillateur,  dans  les
+télécommunications, le contrôle et les systèmes. Il s’agit d’un élément semi-
+conducteur (rend possible le passage du courant, c’est un circuit logique,
+un amplificateur, stabilisateur de tension, modulateur du signal, etc.).
+       Il ressemble à un petit sandwich qui contient de la matière capable de
+conduire l’électricité à un voltage donné. Avec ce dispositif, les ordinateurs
+deviennent plus petits et plus performants. Ci-dessus, l’image de quelques
+modèles de transistors.
+II.4.4. Troisième génération : le circuit intégré (1965-1980)
+        Le circuit intégré, appelé aussi puce électronique, est une petite
+pastille de silicium sur laquelle sont gravés de nombreux composants
+électroniques (transistors, résistances …). Les circuits intégrés sont donc
+l’association de plusieurs transistors.
+
+
+
+
+        En 1959, Jack St. Clair KILBY (Texas Instruments) et Robert NOYLE
+inventèrent les circuits intégrés. Au cours de cette période, les
+microprocesseurs font leur apparition (tel est le 8080 d’Intel). Les premières
+familles d’ordinateurs apparaissent (IBM 360) et avec elles le concept de
+compatibilité descendante (conservation du logiciel). Ci-dessus, l’image des
+circuits intégrés.
+
+ II.4.5. Quatrième génération : l’essor des ordinateurs personnels (1980-)
+        Un ordinateur personnel est celui destiné à l’usage d’une personne et
+dont les dimensions sont assez réduites pour tenir sur un bureau.
+         Cette génération couvre un intervalle énorme de performances et de
+besoins, allant des super computers, utilisés principalement pour le calcul
+scientifique, aux ordinateurs personnels utilisés pour des applications de
+bureautique, de formation… et de jeux. C’est également cette génération qui
+verra l’essor d’unités périphériques en tout genre, et également
+l’interconnexion des machines en diverses architectures réseaux.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.     Cours d’Informatique Générale / UNIBAS
+                                                     22
+
+II.4.6. Cinquième génération : l’intelligence artificielle
+       L’intelligence artificielle est une branche de l’informatique traitant de la
+reproduction, par des machines, de certains aspects de l’intelligence humaine.
+Elle apparaît lorsque le développement des premiers ordinateurs donne à
+penser qu’ils seront rapidement capables de simuler la pensée.
+        Le mathématicien britannique Alan Mathison TURING propose ainsi,
+en 1950, un test (appelé test de Turing) permettant d’évaluer l’intelligence
+d’une machine : un ordinateur est qualifié d’intelligent si, en communiquant
+avec lui à distance et par écrit, un utilisateur ne peut deviner s’il s’agit ou non
+d’un être humain. Les comportements humains ne sont rien d'autre que le
+résultat d'un calcul portant sur des données plus ou moins complexes et tout
+calcul peut être simulé par une machine de TURING universelle. Tous les
+comportements humains peuvent donc être simulés par une telle machine.
+
+II.5. Classification des ordinateurs
+        En matière de la classification des ordinateurs, il existe plusieurs
+classifications parmi lesquelles, on citera :
+
+1. Classification classique
+       Nous distinguons essentiellement 3 types ou catégories d’ordinateurs : Le
+maxi ordinateur, le mini-ordinateur (ces deux constituent le gros système) et
+le micro-ordinateur.
+       Catégories Caractéristiques                      Maxi         Mini-         Micro-
+               essentielles                           ordinateur   ordinateur    ordinateur
+ Une    grande capacité de stockage des                   Oui          Oui           Non
+ informations
+ Une unité centrale unique qui occupe un grand            Oui          Oui           Non
+ espace.
+ Plusieurs consoles (ensemble clavier et écran)           Oui          Oui           Non
+ connecté à l'unité centrale
+ Des     experts pour     sa manipulation                 Oui          Oui           Non
+ Une vitesse de traitement en MIPS (Million               Oui          Oui           Non
+ d’Instructions exécutées Par Seconde) très élevée
+ L’unité centrale unique et de taille inférieure à        Oui          Oui           Non
+ celle du maxi ordinateur.
+
+ Occupe un petit espace                                   Non          Non           Oui
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.                    Cours d’Informatique Générale / UNIBAS
+                                        23
+
+2. Classification moderne
+
+     Cette classification est plutôt basée sur la taille et la forme de l’ordinateur
+ainsi sa capacité de puissance de calculs. Dans cette catégorie, on peut citer :
+
+− Les micro-ordinateurs : Un micro-ordinateur est un ordinateur construit
+   autour d’un microprocesseur. Les micro-ordinateurs ont été conçus au
+   début des années 1970, sous l’impulsion des microprocesseurs. Les micro-
+   ordinateurs sont aujourd’hui utilisés par les particuliers et les industriels en
+   raison de leur faible coût, de leur très bon apport en puissance de
+   traitement/prix et de leur facilité d’emploi. On distingue :
+
+        Les ordinateurs de bureau (appelés aussi « Desktop ») sont composés
+         d’un boîtier renfermant les principaux composants et permettant de
+         raccorder les différents dispositifs externes.
+
+        Les ordinateurs portables (« laptop ») sont composés d’un boîtier
+         intégrant un écran dépliable, un clavier et un grand nombre des
+         dispositifs incorporés.
+        Les organiseurs, appelés encore « Handheld » ou « PDA » (Personnal
+         Digital Assistant) sont des ordinateurs de poche proposant des
+         fonctionnalités liées à l’organisation personnelle.
+
+− Les stations de travail : Une station de travail est un micro-ordinateur
+   haut de gamme disposant d’outils graphiques et des communications
+   avancées qui en font l’outil idéal pour accomplir des tâches nécessitant à la
+   fois des bonnes capacités de stockage et de puissance de calcul. Il s’agit en
+   fait d’un ordinateur puissant mis à la disposition d’un utilisateur et relié à
+   un réseau.
+
+− Les gros ordinateurs ou Mainframes : Un gros ordinateur est une machine
+   conçue selon la philosophie des ordinateurs de la 1ère génération fondée
+   sur un informatique centralisé. Ces genres de machines sont capables de
+   répondre aux besoins des grandes entreprises commerciales, de différentes
+   institutions gouvernementales ou militaires et des établissements de
+   recherche scientifiques. Les gros ordinateurs adaptés tout particulièrement
+   aux calculs scientifiques sont appelés « super calculateurs ». Ce sont des
+   ordinateurs qui offrent une capacité de traitement très élevée et sont utilisés
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                         24
+
+   dans les domaines nécessitant des calculs à grandes échelles comme la
+   météorologie, la physique des particules, l’astrophysique, la réalité virtuelle
+   (ex : simulateur de vol).
+
+− Les tablettes PC (également appelées ardoises électroniques), composées
+   d'un boîtier intégrant un écran tactile ainsi qu'un certain nombre de
+   périphériques incorporés.
+
+− Les centres multimédia (Media Center), représentant une plate- forme
+   matérielle, destinée à une utilisation dans le salon pour le pilotage des
+   éléments hifi (chaîne hifi, téléviseur, platine DVD, etc.).
+
+
+II.6. ELEMENTS CONSTITUTIFS DE L’ORDINATEUR
+
+II.6.1. Architecture matérielle
+
+     Le terme anglais hardware (littéralement « quincaillerie » en français) est
+utilisé pour désigner le matériel informatique. Il s'agit de tous les composants
+que l'on peut trouver dans l’ordinateur. Il s’agit pour l’essentiel des unités
+d’entrée des données, de l’unité de traitement et des unités de sortie.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                        25
+
+
+
+
+               Structure interne d’un ordinateur
+
+II.6.1.1. Les unités d’entrée
+          Elles sont constituées de tous composants électroniques qui permettent
+d’introduire les données dans l’ordinateur. Les principales unités d’entrées
+sont :
+
+1. Le clavier
+         Le clavier (en anglais « keyboard ») permet, aux machines d’écrire, de
+saisir des caractères (lettres, chiffres, symboles ...).     Il s'agit donc d'un
+périphérique d'entrée essentiel pour l'ordinateur, car c'est grâce à lui qu'il nous
+est possible de transférer des textes ou encore de donner ordre à la machine
+d’effectuer des opérations particulières.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                         26
+                                                              TOUCHE S DE COMMANDE
+  TOUCHES DE COMMANDE TOUCHES DE FONCTION
+
+
+
+
+                                              TOUCHES DE DEPLACEMENT PAVE NUMERIQUE
+        TOUCHES ALPHA-NUMERIQUES                   DU CURSEUR
+
+
+
+        Le clavier est généralement branché à l'arrière de l'unité centrale, sur la
+carte-mère, sur un connecteur PS/2 (Personnal System/2 qui est un port de
+connexion de dimension réduite pour souris et clavier) de couleur violette. De
+nos jours, les connecteurs PS/2, ont été systématiquement remplacés par des
+claviers avec un connecteur USB, voire des claviers sans fils.
+
+        Le clavier comporte plusieurs parties notamment le pavé numérique
+(qui permet la saisie des chiffres et d’effectuer des calculs dans un tableur) ; les
+flèches de direction (permettant le déplacement dans le texte) ; les touches
+alphanumériques (où nous retrouvons les lettres de l’alphabet, les chiffres et les
+ponctuations) ; les touches de fonction (sont des raccourcis qui permettent
+d’accéder à des fonctions sans passer par les menus) ; les voyants lumineux ;
+la partie multimédia (pour les claviers récents).
+
+2. La souris
+
+      La souris (en anglais « mouse » ou « mice » au pluriel) est un périphérique
+de pointage (en anglais pointing device) servant à déplacer un curseur sur
+l'écran et permettant de sélectionner, déplacer, manipuler des objets grâce à
+des boutons. On appelle ainsi « clic » l'action consistant à appuyer (cliquer) sur
+un bouton afin d'effectuer une action.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                       27
+
+  La première souris a été inventée et mise au point par Douglas Carle
+ENGELBART : il s'agissait d'une souris en bois contenant deux disques
+perpendiculaires et relié à l'ordinateur par une paire de fils torsadés. La souris
+est généralement branchée à l'arrière de l'unité centrale, sur la carte-mère, sur
+un connecteur PS/2 de couleur verte. Certaines souris possèdent parfois une
+connectique USB. On distingue plusieurs grandes familles de souris :
+
+− Souris mécanique : La souris mécanique comporte une bille sur laquelle
+   tournent deux rouleaux. Ces rouleaux comportent chacun un disque qui
+   tourne entre une photodiode et une diode électroluminescente (LED c’est-à-
+   dire composant électronique autorisant le passage d’un courant électrique
+   dans un seul sens) laissant passer la lumière par séquence. Lorsque la
+   lumière passe, la photodiode renvoie un bit (1), lorsqu'elle rencontre un
+   obstacle, la photodiode renvoie un bit nul (0). A l'aide de ces informations,
+   l'ordinateur peut connaître la position du curseur, voire sa vitesse.
+
+− Souris optique : La souris optique possède un fonctionnement basé sur
+   l'analyse de la surface sur laquelle elle se déplace. Ainsi une souris optique
+   est constituée d'une LED, d'un système d´acquisition d´images (IAS) et d'un
+   processeur de signaux numériques (DSP). La LED est chargée d'éclairer la
+   surface afin de permettre au système IAS d'acquérir l'image de la surface. Le
+   DSP détermine le mouvement horizontal et vertical. Les souris optiques
+   fonctionnent   sur   toutes   surfaces   non   parfaitement   lisses    ou   bien
+   possédantes des dégradés de couleur. Les avantages principaux de ce type
+   de dispositif de pointage par rapport aux souris mécaniques sont
+   notamment une précision accrue ainsi qu'un palissement moindre.
+
+− Souris sans fil : Les souris sans fil (en anglais « cordless mouse ») sont de
+   plus en plus populaires car elles peuvent être utilisées sans être
+   physiquement reliées à l'ordinateur, ce qui procure une sensation de liberté.
+   Au niveau de cette famille de souris, nous retrouvons aussi les souris
+   infrarouges : ces souris sont utilisées en vis-à-vis avec un récepteur
+   infrarouge connecté à l'ordinateur. La portée de ce type de dispositif est de
+   quelques mètres au plus, en vision directe, au même titre que la
+   télécommande d'un téléviseur.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                       28
+
+− Souris à molette : De plus en plus de souris sont équipées d'une molette.
+   La molette, généralement située entre le bouton gauche et le bouton droit
+   permet de faire défiler des pages tout en permettant à l'utilisateur de
+   déplacer le curseur sur l'écran.
+
+N.B. : Sur les ordinateurs portables, nous retrouvons d’autres types de souris
+qui répondent au double impératif de faible encombrement et d’ergonomie :
+le trackball est en quelque sorte une souris inversée (l’utilisateur fait tourner
+une petite bille enchâssée dans le socle de l’appareil, en avant du clavier) et
+le « touchpad » est une sorte de palette graphique fonctionnant avec des
+capteurs de pression qui détectent la position du doigt de l’utilisateur sur
+un petit rectangle de plastique. Actuellement, il est possible de retrouver sur
+le marché des souris, celles qui disposent de quatre boutons, pouvant faciliter
+la navigation aisée sur le réseau Internet.
+
+3. Scanner (numériseur)
+      Le nom « scanner » vient du verbe anglais « to scan » qui signifie balayer
+dans le sens de « balayer du regard ». Il s’agit d’un périphérique permettant de
+numériser des documents à partir d'un format « papier » et de générer des
+documents au format « électronique ou numérique » qu'il est possible
+d'enregistrer dans la mémoire de l'ordinateur. Le scanner est caractérisé par sa
+qualité de numérisation (résolution). On a plusieurs types d’appareils :
+   Les numériseurs médicaux permettant de prendre une image à l’aide des
+      rayons X à l’intérieur du corps humain.
+   Les numériseurs qui permettent de numériser les documents.
+
+   Les systèmes de lecture de code-barres des caisses des magasins.
+   Les numériseurs de reconnaissance de billets de banque.
+
+4. Caméra numérique
+
+       Les caméras numériques sont des appareils photographiques qui ne
+contiennent pas de film. Les photos sont enregistrées sur une petite disquette
+(carte mémoire) au lieu de s’imprégner sur une pellicule. La photographie
+obtenue pourra être visionnée à partir de l’écran d’un ordinateur, ou encore
+d’un téléviseur. Le grand avantage de cet appareil est sa capacité à transmettre
+une photo à un ordinateur, par l’intermédiaire d’un fil, pour ensuite l’intégrer à
+un document. Signalons aussi l’existence d’appareils tout-en-un (all-in-one) qui
+remplissent à la fois les fonctions de scanner, d’imprimante, de photocopieur et
+même de télécopieur.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                        29
+
+II.6.1.2. Unité centrale
+          L’unité de traitement est composée essentiellement par un boîtier dans
+lequel se trouvent logés, sur une carte mère, plusieurs composants
+informatiques. Les composants matériels de l'ordinateur sont architecturés
+autour d'une carte principale comportant quelques circuits intégrés et
+beaucoup de composants électroniques tels que condensateurs, résistances,
+etc. Tous ces composants sont soudés sur la carte et sont reliés par les
+connexions du circuit imprimé par un grand nombre de connecteurs : cette
+carte est appelée « carte-mère ». La carte-mère est logée dans un boitier,
+comportant des emplacements pour les périphériques de stockage sur la face
+avant, ainsi que des boutons permettant de contrôler la mise sous tension de
+l'ordinateur et un certain nombre de voyants permettant de vérifier l'état de
+marche de l'appareil et l'activité des disques durs. Sur la face arrière, le boîtier
+présente des ouvertures en vis-à-vis des cartes d'extension et des interfaces
+d'entrée-sortie connectées sur la carte-mère.
+
+     Enfin, le boîtier héberge un bloc d'alimentation électrique, chargé de
+fournir un courant électrique stable et continu à l'ensemble des éléments
+constitutifs de l'ordinateur. L'alimentation sert donc à convertir le courant
+alternatif du réseau électrique (110 ou 220 Volts) en une tension continue de 5
+Volts pour les composants de l'ordinateur et de 12 volts pour certains
+périphériques internes (disques, lecteurs de CD-ROM, ...). La puissance du bloc
+d'alimentation est généralement comprise entre 200 et 450 Watts.
+
+1. La carte mère
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                       30
+
+     La carte mère c’est la grande carte verte, tout au fond de la boite. La carte
+mère est un élément essentiel de l’ordinateur, c'est à elle que tous les
+périphériques sont connectés : le scanner, l’imprimante, le modem, le clavier, la
+souris... Bref tous les éléments externes que l’on utilise couramment. C’est un
+élément essentiel au fonctionnement de l’ordinateur, dont voici sa description :
+
+
+2. Microprocesseur
+
+
+
+
+     Le centre nerveux de la machine est le microprocesseur. Il s’agit d’un
+composant électronique très sophistiqué et très miniaturisé. Le cœur d'un
+processeur est l'Unité Arithmétique et Logique (UAL) qui permet d'effectuer des
+opérations arithmétiques, logiques, ou d'opérations sur la mémoire (par
+exemple la lecture du contenu de la mémoire).
+
+     L’avantage du microprocesseur sur l'être humain est sa vitesse de calcul.
+Actuellement, les microprocesseurs sont souvent capables d'exécuter plus de 3
+milliards d'opérations par seconde. Les microprocesseurs (et donc les
+ordinateurs) sont incapables d'effectuer le moindre travail si on ne leur fournit
+pas des listes d'instructions précises dans le seul langage qu'ils comprennent :
+le langage machine. De telles listes d'instructions sont appelées des
+programmes d'ordinateur. Le processeur dispose de deux types de mémoires :
+
+   La mémoire cache, qui est une sorte de réservoir de mémoire
+      intermédiaire   entre   le   processeur    et   la   mémoire   centrale.   La
+      caractéristique fonctionnelle de la mémoire cache est de servir à stocker
+      des instructions et des données provenant de la mémoire centrale et qui
+      ont déjà été utilisées les plus récemment par le processeur central.
+   Les registres : il s’agit d’une sorte de tiroirs, un circuit qui permet la
+      mémorisation de n bits en même temps.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                        31
+
+Les éléments principaux d'un microprocesseur sont :
+
+     Une horloge qui rythme le processeur. Entre deux tops d'horloge le
+       processeur effectue une action. Une instruction nécessite une ou
+       plusieurs actions du processeur. Ainsi plus l'horloge a une fréquence
+       élevée, plus le processeur effectue d'instructions par seconde (l'unité
+       retenue pour caractériser le nombre d'instructions traitées par unité de
+       temps est généralement le MIPS, Millions d'instruction par seconde). Par
+       exemple un ordinateur ayant une fréquence de 100 Mhz effectue
+       100.000.000 d'instructions par seconde ;
+     Une unité de gestion des bus qui gère les flux d'informations entrant et
+       sortant ;
+     Une unité d'instruction qui lit les données arrivant, les décode puis les
+       envoie à l'unité d'exécution ;
+     Une unité d'exécution qui accomplit les tâches que lui a donné l'unité
+       d'instruction.
+
+3. les mémoires
+
+A. Disque dur
+      Le disque dur est un support magnétique de stockage d’informations
+contenu dans l’unité centrale offrant des vastes espaces de stockage. Inventé
+dans les années 1950 par IBM, sa capacité augmente très rapidement tandis
+que son encombrement se réduit. En fait, Un disque dur est constitué non pas
+d'un seul disque, mais de plusieurs disques rigides (en anglais hard disk
+signifie disque dur) en métal, en verre ou en céramique, empilés à une très
+faible distance les uns des autres et appelés plateaux.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                        32
+
+       Les disques tournent très rapidement autour d'un axe (à plusieurs
+milliers de tours par minute actuellement) dans le sens inverse des aiguilles
+d'une montre. La lecture et l'écriture se fait grâce à des têtes de lecture situées
+de part et d'autre de chacun des plateaux. Ces têtes sont des électro-aimants
+qui se baissent et se soulèvent pour pouvoir lire l'information ou l'écrire. Les
+têtes ne sont qu'à quelques microns de la surface, séparées par une couche
+d'air provoquée par la rotation des disques qui crée un vent d'environ 250km/h
+! De plus ces têtes sont mobiles latéralement afin de pouvoir balayer l'ensemble
+de la surface du disque.
+      Un disque dur est au minimum composé de pistes numérotées et de
+secteurs numérotés, les données sont stockées dans les secteurs. Dans une pile
+de disques, on ajoute la notion de cylindre qui repère toutes les pistes portant
+le même numéro sur chaque face de chacun des disques de la pile.
+
+B. La Mémoire vive (RAM)
+
+            La   mémoire vive, généralement appelée RAM (Random            Access
+Memory, qui signifie mémoire à accès aléatoire) ou encore mémoire volatile,
+est la mémoire principale du système, c'est-à-dire qu'il s'agit d'un espace
+permettant de stocker de manière temporaire des données lors de l'exécution
+d'un programme. Il s’agit d’une mémoire dans laquelle il est possible de lire et
+d’écrire.
+
+
+
+
+      En effet, le stockage de données dans la mémoire vive est temporaire,
+contrairement au stockage de données sur une mémoire de masse telle que le
+disque dur, car elle permet uniquement de stocker des données tant qu'elle
+est alimentée électriquement. Ainsi, à chaque fois que l'ordinateur est éteint,
+toutes les données présentes en mémoire sont irrémédiablement effacées.
+
+C. Mémoire morte (ROM)
+
+            La mémoire morte, appelée ROM pour Read Only Memory (signifie
+mémoire en lecture seule) est un type de mémoire permettant de conserver les
+informations qui y sont contenues même lorsque la mémoire n'est plus
+alimentée électriquement. Appelée parfois « mémoire non volatile », elle ne
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                         33
+
+s'efface pas lors de la mise hors tension du système. A la base ce type de
+mémoire ne peut être accédée qu'en lecture. Toutefois il est désormais possible
+d'enregistrer des informations dans certaines mémoires de type ROM.
+
+               Ce type de mémoire permet notamment de conserver les
+données nécessaires au démarrage basique de l'ordinateur. En effet, ces
+informations ne peuvent être stockées sur le disque dur étant donné que les
+paramètres du disque (essentiels à son initialisation) font partie de ces données
+vitales à l'amorçage.
+
+
+II.6.1.3. Les unités de sortie
+
+Il existe plusieurs unités de sortie dont le principal est l’écran.
+
+1. Ecran
+      On   appelle   écran   (ou   moniteur),    le   périphérique    d’affichage   de
+
+
+
+
+l’ordinateur. Les moniteurs sont la plupart du temps des tubes cathodiques
+(notés CRT, soit cathode ray tube ou en français tube à rayonnement
+cathodique), c'est à dire un tube en verre sous vide dans lequel un canon à
+électrons émet un flux d'électrons dirigés par un champ électrique vers un
+écran couvert de petits éléments phosphorescents. L'écran est recouvert d'une
+fine couche d'éléments phosphorescents, appelés luminophores, émettant de la
+lumière par excitation lorsque les électrons viennent les heurter, ce qui
+constitue un point lumineux appelé pixel.
+
+        Un moniteur noir et blanc permet d'afficher des dégradés de couleur
+(niveaux de gris) en variant l'intensité du rayon. Pour les moniteurs couleurs,
+trois faisceaux d'électrons (donc trois cathodes) viennent chacun heurter un
+point d'une couleur spécifique : un rouge, un vert et un bleu (RGB : Red,
+Green, Blue ) ou en français RVB Rouge, vert, bleu.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                           34
+
+         Les moniteurs à écrans plats (souvent notés FDP pour Flat panel
+display) se généralisent de plus en plus dans la mesure où leur facteur
+d'encombrement et leur poids sont très inférieurs à ceux des écrans CRT
+traditionnels. La technologie LCD (Liquid Crystal Display) est basée sur un
+écran composé de deux plaques transparentes entre lesquelles est coincée une
+fine couche de liquide contenant des molécules (cristaux) qui ont la propriété de
+s'orienter lorsqu'elles sont soumises à du courant électrique. L'avantage majeur
+de ce type d'écran est son encombrement réduit, d'où son utilisation sur les
+ordinateurs portables. Les moniteurs sont souvent caractérisés par les données
+suivantes :
+
+    La définition : c'est le nombre de points (pixel) que l'écran peut afficher, ce
+     nombre de points est généralement compris entre 640x480 (640 points en
+     longueur, 480 points en largeur) et 1600x1200, mais des résolutions
+     supérieures sont techniquement possibles ;
+
+    La taille : Elle se calcule en mesurant la diagonale de l'écran et est exprimée
+     en pouces, c'est-à-dire 2.54 cm. Il faut veiller à ne pas confondre la définition
+     de l'écran et sa taille. En effet un écran d'une taille donnée peut afficher
+     différentes définitions, cependant de façon générale les écrans de grande
+     taille possèdent une meilleure définition ;
+
+    Le pas de masque (en anglais dot pitch) : C'est la distance qui sépare deux
+     photophores ; plus celle-ci est petite plus l'image est précise. Ainsi un pas de
+     masque inférieur ou égal à 0,25 mm procurera un bon confort d'utilisation,
+     tandis que les écrans possédant des pas de masque supérieurs ou égaux à
+     0,28 mm seront à proscrire ;
+    La résolution : Elle détermine le nombre de pixels par unité de surface,
+     pixels par pouce linéaire (en anglais DPI : Dots Per Inch, traduisez points
+     par pouce). Une résolution de 300 dpi signifie 300 colonnes et 300 rangées
+     de pixels sur un pouce carré ce qui donnerait donc 90000 pixels sur un
+     pouce carré ;
+
+    La fréquence de balayage verticale (refresh rate en anglais) : Elle
+     représente le nombre d'images qui sont affichées par seconde, on l'appelle
+     aussi rafraîchissement, elle est exprimée en Hertz. Plus cette valeur est
+     élevée meilleur est le confort visuel (on ne voit pas l'image scintiller), il faut
+     donc qu'elle soit supérieure à 67 Hz (limite inférieure à partir de laquelle
+     l'œil voit véritablement l'image « clignoter »).
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                         35
+
+
+2. Imprimante
+
+        L'imprimante permet de faire une sortie imprimée (sur papier ou sur tout
+autre support) des données de l'ordinateur. Il en existe plusieurs types dont les
+plus courants sont :
+
+
+
+
+    L’imprimante matricielle : Elle permet d'imprimer des documents grâce à
+     un va-et-vient de la tête sur le papier. La tête est constituée de petites
+     aiguilles, poussées par des électro-aimants, qui viennent taper contre un
+     ruban de carbone situé entre la tête et le papier. Ce ruban de carbone défile
+     pour qu'il y ait continuellement de l'encre dessus. A chaque fin de ligne un
+     rouleau fait tourner la feuille. Les imprimantes matricielles les plus récentes
+     sont équipées de têtes d'impression comportant 24 aiguilles, ce qui leur
+     permet d'imprimer avec une résolution de 216 points par pouce.
+    L’imprimante à jet d’encre : La technologie du jet d'encre a été inventée
+     par Canon, elle repose sur le principe simple mais efficace qu'un fluide
+     chauffé produit des bulles. Le chercheur qui a découvert ce principe avait
+     mis accidentellement en contact une seringue remplie d'encre et un fer à
+     souder, cela créa une bulle dans la seringue qui fit jaillir de l'encre de la
+     seringue. Chaque buse produit une bulle minuscule qui fait éjecter une
+     gouttelette extrêmement fine. Le vide engendré par la baisse de pression
+     aspire une nouvelle goutte ...
+
+    L’imprimante LASER (Light Amplification by Stimulation of Emission
+     Radiation) : L'imprimante laser reproduit à l'aide de points l'image que lui
+     envoie le PC par le port LPT (line printing) ou USB. Grâce au laser, les points
+     sont plus petits et la définition est meilleure. Ainsi, l'imprimante Laser
+     n'ayant pas de tête mécanique est beaucoup plus rapide et moins bruyante.
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.      Cours d’Informatique Générale / UNIBAS
+                                         36
+
+La qualité d’une imprimante se définit par :
+
+  La vitesse d'impression : exprimée en pages par minute (ppm), la vitesse
+      d'impression représente la capacité de l'imprimante à imprimer un grand
+      nombre de pages par minute.
+
+  La résolution : exprimée en points par pouces (notés ppp ou dpi, pour dot
+      per inch), la résolution définit la finesse de l'impression.
+  Le temps de préchauffage : il représente le temps d'attente nécessaire
+      avant la première impression. En effet une imprimante ne peut pas
+      imprimer « à froid », il lui est nécessaire d'atteindre une certaine
+      température pour fonctionner de manière optimale.
+
+  La mémoire embarquée : il s'agit de la quantité de mémoire permettant à
+      l'imprimante de stocker les travaux d'impression. Plus la quantité de
+      mémoire n’est élevée, plus la file d'attente des travaux peuvent être
+      importante.
+
+  Les cartouches : les cartouches sont rarement standards et dépendent
+    fortement de la marque et du modèle d'imprimante. Ainsi, certains
+    constructeurs privilégient des cartouches multicolores, tandis que
+    d'autres proposent des cartouches d'encre séparées. Les cartouches
+    d'encre séparées sont globalement plus économiques car il n'est pas rare
+    qu'une couleur soit plus utilisée que les autres.
+NB : Il existe des périphériques d’entrée/sortie qui servent à stocker les
+données et les programmes. Il s’agit entre autre : clef USB, CD, DVD, disque
+dur ou disquette, etc.
+
+3. Notion sur le bus
+
+      On appelle « bus », en informatique, un ensemble de liaisons physiques
+(câbles, pistes de circuits imprimés, ...) pouvant être exploitées en commun par
+plusieurs éléments matériels afin de communiquer. Un bus est caractérisé par
+le   volume   d'informations   transmises     simultanément     (exprimé   en   bits),
+correspondant au nombre de lignes sur lesquelles les données sont envoyées de
+manière simultanée. Une nappe de 32 fils permet ainsi de transmettre 32 bits
+en parallèle. On parle ainsi de « largeur de bus » pour désigner le nombre de
+bits qu'il peut transmettre simultanément.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                          37
+
+        D'autre part, la vitesse du bus est également définie par sa fréquence
+(exprimée en Hertz), c'est-à-dire le nombre de paquets de données envoyés ou
+reçus par seconde. On parle de cycle pour désigner chaque envoi ou réception
+de données. On distingue généralement sur un ordinateur deux types de bus :
+le bus système et les bus d’extension permettant de connecter des cartes
+d'extensions.
+− Le bus système permet au processeur de communiquer avec la mémoire
+   centrale du système (mémoire vive ou RAM). Le bus interne est lui-même
+   subdivisé en deux bus :
+       Le bus d'adresses (ou bus mémoire) transporte les adresses mémoire
+        auxquelles le processeur souhaite accéder pour lire ou écrire une donnée.
+       Le bus de données véhicule les informations en provenance ou à
+        destination du processeur.
+−    Le bus d'extension (parfois appelé bus d'entrée/sortie) permet aux divers
+     composants de la carte mère (USB, série, parallèle, disques durs, lecteurs et
+     graveurs de CD-ROM, etc.) de communiquer entre eux mais il permet
+     surtout l'ajout de nouveaux périphériques grâce aux connecteurs
+     d'extension (appelés slots) connectés sur le bus d'entrées-sorties. On parle
+     généralement de bridge (en français pont) pour désigner un élément
+     d'interconnexion entre deux bus.
+
+4. Notions de ports d’entrée-sortie
+         Les ports sont des prises que l’on trouve à l’arrière de l’ordinateur et qui
+permettent de brancher divers matériels. Les ports d'entrée-sortie sont des
+éléments matériels de l'ordinateur, permettant au système de communiquer
+avec des éléments extérieurs, c'est-à-dire d'échanger des données, d'où
+l'appellation d'interface d'entrée-sortie (notée parfois interface d'E/S).
+
+a. Les ports « série »
+        Les ports série représentent les premières interfaces ayant permis aux
+ordinateurs d'échanger des informations avec le "monde extérieur". Le terme
+série désigne un envoi de données via un fil unique : les bits sont envoyés les
+uns à la suite des autres.
+        A l'origine les ports série permettaient uniquement d'envoyer des données,
+mais pas d'en recevoir, c'est pourquoi des ports bidirectionnels ont été mis au
+point (ceux qui équipent les ordinateurs actuels le sont) ; les ports séries
+bidirectionnels ont donc besoin de deux fils pour effectuer la communication.
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                       38
+
+Les ports série sont généralement intégrés à la carte mère, c'est pourquoi des
+connecteurs présents à l'arrière du boîtier, et reliés à la carte mère par une
+nappe de fils, permettent de connecter un élément extérieur. Les connecteurs
+séries possèdent généralement 9 broches (connecteur DB9) :
+
+
+b. Les ports parallèles
+       La transmission de données en parallèle consiste à envoyer des données
+simultanément sur plusieurs canaux (fils). Les ports parallèles présents sur les
+ordinateurs personnels permettent d'envoyer simultanément 8 bits (un octet)
+par l'intermédiaire de 8 fils.
+      Les premiers ports parallèles bidirectionnels permettaient d'atteindre des
+débits (volume d’informations qu’il est possible de traiter) de l'ordre de
+2.4Mb/s. Toutefois des ports parallèles améliorés ont été mis au point afin
+d'obtenir des débits plus élevés. Les ports parallèles sont, comme les ports
+série, intégrés à la carte mère. Les connecteurs DB25 permettent de connecter
+un élément extérieur (une imprimante par exemple).
+
+
+c. Les ports USB
+      Les ports USB (Universal Serial Bus, ports séries universels) sont
+basés sur une architecture de type série. Il s'agit toutefois d'une interface
+entrée-sortie beaucoup plus rapide que les ports série standards.
+
+      L’architecture USB a pour caractéristique de fournir l’alimentation
+électrique aux périphériques qu’elle relie. Elle utilise pour cela un câble
+composé de quatre fils (la masse GND, l’alimentation VBUS et deux fils de
+données appelés D- et D+).
+          Ainsi, il est possible de brancher les périphériques sans éteindre
+l’ordinateur (branchement à chaud). Lors de la connexion du périphérique à
+l’hôte, ce dernier détecte l’ajout du nouvel élément grâce au changement de la
+tension entre les fils D+ et D-. A ce moment, l’ordinateur envoie un signal
+d’initialisation au périphérique, puis lui fournit du courant grâce aux fils GND
+et VBUS. Le périphérique est alors alimenté en courant électrique et récupère
+temporairement l’adresse par défaut (l’adresse 0). L’étape suivante consiste à
+lui fournir son adresse définitive (c’est la procédure d’énumération). Pour cela,
+l’ordinateur interroge les périphériques déjà branchés pour connaître la leur et
+en attribue une au nouveau, qui en retour s’identifie. L’hôte, disposant de
+toutes les caractéristiques nécessaires est alors en mesure de charger le pilote
+approprié...
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.      Cours d’Informatique Générale / UNIBAS
+                                                    39
+
+           CHAPITRE III. CODAGE ET REPRESENTATION DES
+                           INFORMATIONS
+
+III.1. Représentation des informations
+
+     Par définition, « une information » est tout élément de connaissance
+susceptible d'être représenté à l'aide de conventions pour être conservé, traité
+ou communiqué.
+       C’est ainsi, Lorsque nous voulons interpréter quelles informations
+transitent dans un réseau, et quand elles circulent, il convient de les
+représenter de manière facilement compréhensible, Alors présumons qu’un
+ordinateur A doive envoyer l’image représentée dans la figure ci-dessous vers
+un autre ordinateur B, après avoir convenu de la taille de cette image et de
+l’ordre d’envoi des éléments la constituant. La description se fera, par exemple,
+carré par carré, ligne par ligne, en commençant en haut à gauche, pour finir en
+bas à droite. Il est en effet impossible d’envoyer l’image telle quelle sans la
+coder. La séquence de couleurs à envoyer est donc (en notant blanc B et noir
+A) : AAAAA ABBBA ABABA ABBBA AAAAA
+
+
+
+
+                                  Représentation à transmettre3
+      Une manière de coder la couleur de chaque carré consiste à associer une
+valeur à chaque couleur possible, par exemple 1 à B (le pixel sur l’écran est
+allumé) et 0 à A (le pixel est éteint). La suite de chiffres codant l’image est alors :
+
+
+                          00000 - 01110 - 01010 - 01110 – 00000
+
+
+
+
+                                Données informatique (binaire)
+
+
+
+3
+    Laure Petrucci, Cours de Réseaux, IUT de Villetaneuse, (septembre 2012)
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.                  Cours d’Informatique Générale / UNIBAS
+                                          40
+
+
+
+
+                         Données binaire en transmission
+
+
+I.2. Représentation des données
+       Par définition, « une donnée » est une représentation d'une information
+sous une forme conventionnelle destinée à faciliter son traitement. Les données
+informatiques sont représentées par des « suites de nombres ». Ces nombres
+sont écrits en binaire (c’est-à-dire en base 2). En base 2, nous n’utilisons que
+les chiffres 0 et 1. L’utilisation de la base 2 garantit de pouvoir représenter un
+état stable d’un système physique, par exemple : circuit électrique ouvert/fermé,
+ou carte perforée avec un trou/sans trou . . . Il sied de rappeler que la
+compréhension de la représentation des données informatique implique autant
+la connaissance de quelques unités utilisées :
+
+    Bit (Binary digit) : C’est la plus petite unité de mesure de la quantité
+     d'information numérique (8 bits= 1 octet). Autrement-dit, un bit est un
+     symbole binaire (Est dit binaire tout élément qui n'existe qu'en deux états : 1
+     ou 0, vrai ou faux. On parle de langage binaire ou de fichier binaire). C’est par
+     exemple :
+
+
+     NBRE DE BIT       ETATS                       COMBINAISONS
+
+        1 bit          2                            0 et 1
+        2 bits         4                      00, 01, 10 et 11
+        3 bits         8          000, 001, 010, 011, 100, 101, 110 et 111
+        4 bits        16         0000, 0001, 0010, 0011, 0100, 0101, 0110,
+                               0111, 1000, 1001,1010, 1011, 1101, 1100, 1101,
+                                                 1110, 1111
+        5 bits        32         00000, 00001, 00010, 00011, 00100, 00101,
+                                 00110, 00111, 01000, 01001, 01010, 01011,
+                                 01100, 01101, 01110, 01111, 10000, 10001,
+                                 10010, 10011, 10100, 10101, 10110, 10111,
+                                 11000, 11001, 11010, 11011, 11100, 11101,
+                                               11110, 11111.
+        n bits        n état                    n combinaisons
+
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                         41
+
+L’élément bit est divisé en grandes parties à savoir : le multiplicateur et le
+diviseur :
+                 TABLEAU DES MULTIPLICATEURS DE BITS
+
+       Unité          Symbole                      Valeur (bits)
+
+
+Kilo-bit           Kb              103 = 1 000
+Méga-bit           Mb              106 = 1 000 000
+Giga-bit           Gb              109 = 1 000 000 000
+Térabit            Tb              1012 = 1 000 000 000 000
+Péta-bit           Pb              1015= 1 000 000 000 000 000
+Exa-bit            Eb              1018= 1 000 000 000 000 000 000
+Zetta-bit          Zb              1021= 1 000 000 000 000 000 000 000
+Yotta-bit          Yb              1024= 1 000 000 000 000 000 000 000 000
+
+                        TABLEAU DES DIVISEURS DE BITS
+
+milli             m                10-3 = 1/1 000
+micro             µ                10-6 = 1/1 000 000
+nano              n                10-9 = 1/1 000 000 000
+pico              p                10-12 = 1/1 000 000 000 000
+femto             f                10-15= 1/1 000 000 000 000 000
+atto              a                10-18= 1/1 000 000 000 000 000 000
+Zepto             z                10-21= 1/1 000 000 000 000 000 000 000
+Yocto             y                10-24=
+                                   1/1 000 000 000 000 000 000 000 000
+    Octet (Byte) : Est une suite de 8 bits est appelée un octet. Un octet peut
+     représenter un caractère unique, tel qu'une lettre, un chiffre ou un signe de
+     ponctuation. Comme un octet ne représente qu'une petite quantité
+     d'information, la taille de la mémoire des ordinateurs et celle de leur
+     mémoire de masse sont souvent exprimées en kilo-octets (1024 octets),
+     méga-octets (1 048 576 octets), ou giga-octets (1 073 741 824octets).
+
+Note : Un octet est souvent utilisé pour représenter un caractère
+alphanumérique. Attention, en anglais le « bit » est appelé « bit », alors que
+« l’octet » est appelé « byte ». L’élément « octet » est à son tour subdivisé en 2
+parties:
+
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.      Cours d’Informatique Générale / UNIBAS
+                                        42
+
+              TABLEAU MULTIPLICATEURS DES OCTETS
+     Unité               Symbole                   Valeur (Octets)
+Kibi-octet         Kio (KByte)           210 = 1 024
+Mebi-octet         Mio (MByte)           220= 1 048 576
+Gibi-octet         Gio (GByte)           230= 1 073 741 824
+Tebi-octet         Tio (TByte)           240 = 1 099 511 627 776
+Ebi-octet          Eio (Ebyte)           250 = 1 125 899 906 842 624
+Yobi-octet         Yio (Ybyte)           260
+Zebi-octet         Zio (Zbyte)           270
+        Généralement, lorsque les préfixes « kilo », « Méga », « Giga » et « Téra »
+sont appliqués aux octets, ils ne représentent pas une puissance de 10, mais
+une puissance de 2. Cet usage reste largement en vigueur chez les
+professionnels comme le grand public. Cependant cette tradition viole les
+normes en vigueur qui imposent d’utiliser les préfixes « kibi », « mébi », « gibi »,
+« tébi » pour les puissances de 2.
+
+III.3. Les systèmes de numération
+            Un système de numération est un système de représentation des
+nombres utilisant un certain nombre des symboles. Autrement dit, c’est un ensemble
+de conventions et des méthodes permettant de nommer, d’écrire les nombres et
+d’effectuer les calculer. La base de numération indique le nombre de différents
+symboles utilisés par ce système. Un système de numération est caractérisé par :
+  − La base indiquant le nombre de symboles utilisés dans le système ;
+  − Les symboles appelés chiffres ;
+  − Les normes de formation d‘une unité et du nombre immédiatement
+    supérieur au chiffre le plus élevé de la base : chaque des chiffres du
+    système représente un coefficient multiplicateur d‘une puissance de la
+    base selon la position du chiffre dans un nombre, la première
+    puissance à droite étant égale à 0 et allant progressant vers la
+    gauche. La position d‘un chiffre à l‘intérieur d‘un nombre défini son rang.
+
+      Il existe plusieurs systèmes de numération en informatique, mais dans le
+cadre de ce cours, nous ne parlerons que de 4 systèmes de numération :
+
+  Le système décimal ;
+  Le système octal ;
+  Le système binaire ;
+  Le système hexadécimal.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                            43
+
+III.3.1. Le système décimal
+
+       Le système décimal est celui dans lequel nous avons le plus l'habitude
+d'écrire où chaque chiffre peut avoir 10 valeurs différentes tels : 0, 1, 2, 3, 4,
+5, 6, 7, 8, 9, de ce fait, le système décimal a pour base 10. Tout nombre écrit
+dans le système décimal vérifie la relation suivante :
+
+745 = 7 × 100 + 4 × 10 + 5 × 1
+
+745 = 7 × 10 × 10 + 4 × 10 + 5 × 1
+
+745 = 7 × 10 2 + 4 × 10 1 + 5 × 10 0
+
+        Chaque chiffre du nombre est à multiplier par une puissance de 10 :
+c'est ce que l'on nomme le poids du chiffre. L'exposant de cette puissance
+est nul pour le chiffre situé le plus à droite et s'accroît d'une unit é pour
+chaque passage à un chiffre vers la gauche.
+
+       12 435 = 1 × 10 4 + 2 × 10 3 + 4 × 10 2 + 3 × 10 1 + 5 × 10 0 .
+
+      Cette façon d'écrire les nombres est appelée système de numération
+de position. Dans notre système conventionnel, nous utilisons les
+puissances de 10 pour pondérer la valeur des chiffres selon leur position,
+cependant il est possible d'imaginer d'autres systèmes de nombres ayant
+comme base un nombre entier différent.
+
+III.3.2. Le système binaire
+       Dans le système binaire, chaque chiffre peut avoir 2 valeurs
+différentes : 0, 1. De ce fait, le système a pour base 2. Tout nombre écrit dans
+ce système vérifie la relation suivante :
+
+(10 110) 2 = 1 × 2 4 + 0 × 2 3 + 1 × 2 2 + 1 × 2 1 + 0 × 2 0
+
+(10 110) 2 = 1 × 16 + 0 × 8 + 1 × 4 + 1 × 2 + 0 × 1
+
+Donc : (10110) 2 = (22) 1 0 .
+
+      Tous les systèmes de numération de position obéissent aux règles du
+système binaire sans exception.
+
+Calcul binaire
+       Les    opérations        arithmétiques    simples   telles   que   l'addition,   la
+soustraction et la multiplication sont faciles à effectuer en binaire et utilisent
+les opérateurs booléens :
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.             Cours d’Informatique Générale / UNIBAS
+                                                      44
+
+A. L'addition en binaire
+
+         L'addition en binaire se fait avec les mêmes règles qu'en décimale : on
+commence à additionner les bits de poids faible (les bits de droite) puis on a
+des retenues lorsque la somme de deux bits de mêmes poids dépasse la valeur
+de l'unité la plus grande (dans le cas du binaire : 1) ; cette retenue est reportée
+sur le bit de poids plus fort suivant... Par exemple : 11012 + 11102 = 110112
+(décimal 13 + 14 = 27)
+                                                  1       1       0       12
+                                  +               1       1       1       02
+                                          ___ ___ ___ ___ ___
+                                          1       1       0       1       12
+
+
+B. La multiplication en binaire
+        La multiplication se fait entre bits de même poids, avec le même
+système de retenue qu'en décimale. La table de multiplication en binaire est
+très simple :
+Par exemple : 11012 x 1102 = 10011102 (décimal 13 x 6 = 78)
+                                                      1       1       0        12
+                             X                                1       1        02
+                                              ____ ____ ____ ____ ____
+                                      0       1       1       0       1        0
+                             0        1       1       0       1
+                             ____ ____ ____ ____ ____ ____ ____
+                             1        0       0       1       1       1        02
+
+
+C. La division en binaire
+
+Par exemple : 1011002 / 1002 = 10112 (44 / 4 = 11)
+         0      1   1    0       02       1       0       02
+    1
+    -    0      0                         1
+    1
+                1   1                     0
+                -   0                     1
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.                           Cours d’Informatique Générale / UNIBAS
+                                          45
+
+                  1 1     0       1
+              -     0     0
+              1
+                        1 0   0
+                    -     0   0
+                    1
+                              0
+D. La soustraction en binaire
+Par exemple : 10112 – 1112 = 1002
+                                      1   0    1    12
+                                      -   1    1    12
+                                      ___ ___ ___ ___
+                                          1    0    02
+
+      Le système binaire est un système de numération fondé sur la position
+des chiffres dont la base b=2. Les 2 chiffres notés 0 et 1 sont appelés bits. Pour
+convertir un nombre décimal en son équivalent binaire, il convient de
+distinguer la partie entière (PE) de celle fractionnaire (PF). Pour la partie
+entière, divisez PE et chacun des quotients successifs par 2 jusqu’à obtenir un
+quotient nul c’est-à-dire égal à 0. La suite des restes dans l’ordre inverse de
+leur obtention. Pour la partie fractionnaire, multipliez PF et les parties
+fractionnaires des produits successifs par 2 jusqu’à obtenir soit une partie
+fractionnaire nulle, soit une répétition de cette partie.
+
+NB : la conversion d’un nombre binaire en son équivalent décimal passe par la
+multiplication de chaque élément du nombre binaire par le chiffre 2 élevé à une
+puissance ne croissant par pas de 1 compté à partir de 0 en partant de la
+droite, puis on effectue la somme des résultats obtenus. Pour la partie
+fractionnaire, on utilise les puissances négatives de 2.
+
+III.3.3. Le système octal
+
+        Le système octal utilise un système de numération ayant comme
+base 8 (octal => latin octo = huit). Il faut noter que dans ce système nous
+n'aurons plus 10 symboles mais 8 seulement : 0, 1, 2, 3, 4, 5, 6, 7 Ainsi,
+un nombre exprimé en base 8 pourra se présenter de la manière suivante :
+(745) 8
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.            Cours d’Informatique Générale / UNIBAS
+                                        46
+
+      Lorsque l'on écrit un nombre, il faudra bien préciser la base dans
+laquelle on l'exprime pour lever les éventuelles indéterminations (745
+existe aussi en base 10). Ainsi le nombre sera mis entre parenthèses (745
+dans notre exemple) et indicé d'un nombre représentant sa base (8 est mis
+en indice). Cette base obéira aux même règles que la base 10, vue
+précédemment, ainsi on peut décomposer (745) 8 de la façon suivante :
+
+(745) 8 = 7 × 8 2 + 4 × 8 1 + 5 × 8 0
+
+(745) 8 = 7 × 64 + 4 × 8 + 5 × 1
+
+(745) 8 = 448 + 32 + 5
+
+Nous venons de voir que : (745) 8 = (485) 1 0 .
+
+                         Voici un tableau récapitulatif :
+
+
+
+
+NB : les conversions entre les nombres octal-binaire se font par remplacement
+de chaque chiffre octal par son équivalent binaire ; et la conversion binaire-
+octal se fait en partageant le nombre binaire en groupe de 3 bits (en partant de
+la virgule binaire et en ajoutant les zéros les cas échéants) et en remplaçant
+chaque groupe par son équivalent octal.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                     47
+
+III.3.4. Le système hexadécimal
+       Le système hexadécimal est un système de numération à base b=16. Il
+nécessite 16 symboles dont les 10 chiffres décimaux auquel on ajoute les 6
+premières lettres de l’alphabet. Les nombres binaires étant de plus en plus
+longs, il a fallu introduire une nouvelle base : la base hexadécimale. Le
+système hexadécimal utilise les 16 symboles suivant : 0, 1, 2, 3, 4, 5, 6, 7,
+8, 9, A, B, C, D, E, F. De ce fait, le système a pour base 16. Un nombre
+exprimé en base 16 pourra se présenter de la manière suivante : (5AF) 1 6 La
+correspondance entre base 2, base 10 et base 16 est indiquée dans le
+tableau ci-après :
+
+
+
+
+Le nombre (5AF) 1 6 peut se décomposer comme suit :
+(5AF) 1 6 = 5 × 16 2 + A × 16 1 + F × 16 0
+En remplaçant A et F par leur équivalent en base 10, on obtient :
+(5AF) 1 6 = 5 × 16 2 + 10 × 16 1 + 15 × 16 0
+(5AF) 1 6 = 5 × 256 + 10 × 16 + 15 × 1
+donc = (5AF) 1 6 = (1455) 1 0
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.    Cours d’Informatique Générale / UNIBAS
+                                             48
+
+III.4. Codage des caractères
+        On appelle « codage d'un nombre et/ou d‘un caractère » la façon selon
+laquelle il est décrit sous forme binaire. La représentation des nombres sur un
+ordinateur est indispensable pour que celui-ci puisse les stocker, les
+manipuler. Toutefois le problème est qu'un nombre mathématique peut être
+infini (aussi grand que l'on veut), mais la représentation d'un nombre dans un
+ordinateur doit être fait sur un nombre de bits prédéfini. Il s'agit donc de
+prédéfinir un nombre de bits et la manière de les utiliser pour que ceux-ci
+servent le plus efficacement possible à représenter l'entité. Ainsi il serait
+idiot de coder un caractère sur 16 bits (65536 possibilités) alors qu'on en utilise
+généralement moins de 256 ... actuellement, il existe :
+
+III.4.1. Le code DCB (Décimal codé binaire).
+        Dans ce système, les nombres seront représentés dans la logique
+décimale, toute fois chaque chiffre sera converti séparément en binaire en
+gardant son rang dans le nombre donné. Le besoin d‘harmoniser le nombre de
+caractères pour représenter chaque chiffre s‘est vite manifesté. Pour cela il a
+fallu convertir tous les chiffres du système décimal et constater le nombre
+maximum des positions requisses pour représenter chaque chiffre du système
+décimal en binaire. Cela étant, le code DCB va convertir les chiffres décimaux
+en binaire de 4 positions. … Bref, c’est un code qui date des années 50, de
+longueur 4, et ne possédant pas de minuscules.
+
+III.4.2. Le code Baudot
+       Le code Baudot aussi appelé (code télégraphique ou code CCITT n° 2) :
+c’est un code de longueur 5bits qui ne permet que 25 combinaisons, c’est-à-
+dire 32 avec 2 caractères spéciaux permettant l'inversion chiffres ou lettres.
+C'est un des plus anciens codes conçus uniquement pour les réseaux
+télégraphiques commutés ou télex et utilisés dans le cadre de
+l’informatique. Comprend 60 caractères.
+
+III.4.3. Le code ASCII
+      Le Code ASCII (American Standard Code for Information Interchange
+ou code CCITT n°5) : c’est un code de longueurs 7, avec la possibilité du 8eme
+bit de parité4 ou ISO à 7 éléments. Il contient des caractères spéciaux de
+contrôle (SOH, STX, ETX ...) et comprend 128 caractères.
+
+
+
+
+4Le bit de parité est un bit qui est mis à « 0 » ou à « 1 » dans un caractère de sorte que le
+nombre total de bits "1" dans le champ de données soit pair ou impaire, selon la convention
+choisie.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.             Cours d’Informatique Générale / UNIBAS
+                                      49
+
+III. 4.4. Le code EBCDIC
+
+       Le Code EBCDIC (Extended Binary Coded Decimal Interchange
+Code) : est un Code de longueur 8bits, d’origine IBM (International Business
+Machine) utilisé dans les ordinateurs du constructeur. Ce code autorise jusqu'à
+256 caractères).
+      Ce code permet la représentation des lettres contrairement au code DCB
+qui ne pouvait représenter que les chiffres, le code respecte les séquences
+croissantes alphabétiques A à Z et numériques de 0—9. Du fait qu‘il tient
+compte des valeurs binaires de chaque caractère, ceci permet de trier les
+informations de façon alphabétique et numérique croissante ou décroissante. Il
+est alors possible de procéder à la comparaison des caractères en tenant
+compte de la table EBCDIC qui permet la combinaison des caractères.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.     Cours d’Informatique Générale / UNIBAS
+                                        50
+
+          CHAPITRE IV. NOTIONS SUR LES SYSTEMES
+                      D’EXPLOITATION
+IV.1. Définition et contexte d’étude
+
+         En informatique, un système d'exploitation (souvent appelé « OS » de
+l'anglais Operating System) est un ensemble de programmes qui dirige
+l'utilisation des ressources d'un ordinateur par des logiciels applicatifs.
+
+       Le rôle principal d’un système d’exploitation est d’assurer la liaison entre
+les ressources, l’utilisateur et les applications en créant une machine virtuelle
+et son interface.
+
+       Il reçoit des demandes d'utilisation des ressources de l’ordinateur
+ressources de stockage des mémoires (par exemple des accès à la mémoire
+vive, aux disques durs), ressources de calcul du processeur central,
+ressources de communication vers des périphériques (pour parfois
+demander des ressources de calcul au GPU par exemple ou tout autre carte
+d’extension) ou via le réseau de la part des logiciels applicatifs. Le système
+d'exploitation gère les demandes ainsi que les ressources nécessaires évitant les
+interférences entre les logiciels.
+
+Le système d'exploitation est le logiciel système :
+
+     Il est le système principal car il permet à l'ordinateur et aux programmes
+      de fonctionner par lui ;
+     Il est le système qui se lance en second après le firmware (programme
+      d’amorcage ou bootloader) exécuté lors de la mise en marche de
+      l'ordinateur.
+
+       Le système d’exploitation offre une suite de services généraux facilitant la
+création de logiciels applicatifs et sert d'intermédiaire entre ces logiciels et
+le matériel informatique. Un système d'exploitation apporte commodité,
+efficacité et capacité d'évolution, permettant d'introduire de nouvelles
+fonctions et du nouveau matériel sans remettre en cause les logiciels.
+
+        Il existe sur le marché des dizaines de systèmes d'exploitation différents,
+très souvent livrés avec l'appareil informatique. C'est le cas de Windows,
+MacOs, Irix, Symbian OS, Unix, GNU/Linux (pour lequel il existe de
+nombreuses distributions) ou Android. Les fonctionnalités offertes diffèrent
+d'un système à l'autre et sont typiquement en rapport avec l'exécution des
+programmes, l'utilisation de la mémoire centrale ou des périphériques, la
+manipulation des systèmes de fichiers, la communication, ou la détection
+et la gestion d'erreurs.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                        51
+
+IV.2. Objectifs des systèmes d’exploitation
+
+      Tous les systèmes d’exploitation sont créés pour uniquement deux
+objectifs :
+   − Transformer le matériel informatique (ordinateur) en une machine
+     utilisable : cela veut dire que chaque système d’exploitation est fourni
+     avec des outils adaptés aux, besoins de l’utilisateur indépendamment des
+     caractéristiques physiques de son ordinateur.
+   − Optimisez l’utilisation des ressources (matériels et logiciels) : cela veut
+     dire que le système d’exploitation est dans l’obligation de rendre favorable
+     (facile à utiliser) l’exploitation de l’ordinateur.
+Ces deux objectifs poursuivent les résultats ci-après :
+     Sécurité des données traitées : ce qui renvoies à l’intégrité, contrôle des
+      accès, à la confidentialité. Bref, l’absence totale du danger lors de
+      l’exploitation de l’ordinateur.
+     Fiabilité : satisfaction des utilisateurs, même dans les conditions
+      hostiles et imprévues.
+     Performance du système informatique : c’est le degré de satisfaction
+      des utilisateurs en termes chiffrés et des résultats obtenus.
+
+IV.3 Fonctions d’un système d’exploitation
+       Le système d'exploitation offre une suite de services généraux facilitant
+la création et l'utilisation de logiciels applicatifs. Les services offerts sont en
+rapport avec l'utilisation des ressources de l'ordinateur par les programmes. Ils
+permettent en particulier d'exécuter des programmes, de lire et écrire des
+informations, de manipuler les fichiers , de communiquer et de déceler
+des erreurs. Ces services permettent à plusieurs usagers et plusieurs
+programmes de se partager les ressources de l'ordinateur. La principale
+fonction du système d'exploitation est de joindre les différences entre les
+différentes architectures informatiques, et d'organiser l'utilisation des
+ressources de manière rationnelle. Ainsi, il regroupe alors ses fonctions en 5
+classes :
+1. La gestion du processus
+         Cette fonction est aussi appelée « gestion des applications » ou « gestion
+de l’exécution », c’est lorsque le système d’exploitation permet de gérer
+l’allocation des taches d’un processeur au moyen d’un séquenceur qui
+ordonnance les processus les uns après les autres. La gestion du processus
+consiste également à s’assurer qu’il y a une bonne exécution des applications,
+leur affectation des ressources nécessaires à leur fonctionnement en détectant
+et en corrigeant les erreurs échéantes.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                         52
+
+2. La gestion de la mémoire
+      C’est lorsque le système d’exploitation permet de gérer l’espace-
+mémoire alloué a chaque application utilisée par l’utilisateur (en créant des
+mémoires virtuelles).
+        Le système d'exploitation dirige l'utilisation de la mémoire. Il réserve un
+emplacement de mémoire lorsqu'un processus le demande, et le libère lorsqu'il
+n'est plus utilisé, par exemple lorsque le processus s'est arrêté. La quantité de
+mémoire utilisée par l'ensemble du système informatique dépend
+essentiellement de la manière dont le système d'exploitation effectue les
+réservations.
+       Le mécanisme dit « mémoire virtuelle » est destiné à simuler la présence
+ou l'absence de mémoire centrale par manipulation de l'unité de gestion
+mémoire. C'est un mécanisme courant dans les systèmes d'exploitation
+contemporains. La mémoire virtuelle permet d'exécuter simultanément plus de
+programmes que ce que la mémoire centrale peut contenir. Chaque programme
+n'ayant pas besoin que la totalité des informations qu'il manipule soit présente
+dans la mémoire centrale, une partie des informations est stockée dans la
+mémoire de masse (en général dans un fichier ou une partition de disque
+dur) habituellement plus importante mais plus lente et sont transférées en
+mémoire centrale lorsque le programme en a besoin. Ainsi donc, Les
+programmes disposent d'un ou plusieurs espaces virtuels de mémoire continus
+pour travailler.
+3. La gestion des fichiers
+      Un fichier est une collection d'informations portant un nom, enregistrée
+sur un média tel qu'un disque dur, une bande magnétique ou un disque
+optique. Chaque médium a ses propres caractéristiques et sa propre
+organisation.
+         Le système d'exploitation s'occupe de créer et de détruire des fichiers
+et des répertoires, de réserver de l'espace sur les médias ainsi que copier
+le contenu des fichiers de et vers la mémoire centrale. Il aide également les
+logiciels applicatifs à retrouver les fichiers, partager les fichiers entre
+plusieurs utilisateurs, modifier le contenu des fichiers et créer des
+répertoires (permettant de classer et d'organiser les fichiers). La vitesse du
+système informatique dépendra de la vitesse de manipulation des fichiers. Le
+système d'exploitation permet en particulier de manipuler les attributs :
+les caractéristiques du fichier tels que son nom, la date de création, le type du
+contenu, la taille et l'emplacement.
+      Il permet également de manipuler les permissions : des autorisations
+qui indiquent si un utilisateur pourra lire, écrire ou exécuter le fichier. Le système
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                       53
+
+d'exploitation tient compte du système de fichiers : la manière dont les fichiers
+sont organisés et répartis sur un dispositif de stockage. Dans un système
+d'exploitation multi-utilisateurs, les programmes manipulant le système de
+fichiers effectuent des contrôles pour vérifier qu'aucun fichier n'est
+manipulé par une personne non autorisée. Ce type de système d'exploitation
+refusera toute manipulation non autorisée.
+4. La gestion de communication
+        Cette fonction est aussi appelée « gestion de l’interface », c’est lorsque
+le système d’exploitation permet l’interaction entre l’utilisateur la machine au
+moyen d’un langage informatique ou d’une interface qui peut être soit
+graphique, en mode commande ligne ou tactile aussi appelée « spatiale ».
+5. La gestion des périphériques
+      Cette fonction aussi appelée « gestion des entrées/sorties ». C’est lorsque
+le système d’exploitation permet de gérer les accès aux ressources
+matérielles de l’ordinateur par l’intermédiaires des pilotes.
+
+IV.4. Typologie des systèmes d’exploitation
+       Il existe cinq typologies (générations) de systèmes d'exploitation : par
+lots (batch), multi programmés, en temps partagé, temps réel, et
+distribués. Chacun des principes mis en œuvre dans une typologie se retrouve
+dans les générations suivantes :
+1. Les systèmes d’exploitation de traitement par lots (batch)
+       Ce sont des systèmes prévus pour l'exécution de grands calculs les
+uns après les autres, avec peu d'intervention utilisateur. À partir de la
+génération   des    systèmes    d'exploitation   multiprogrammés,     plusieurs
+programmes sont exécutés simultanément par planification (scheduling). Dans
+ces systèmes d'exploitation multitâches, plusieurs programmes résident dans la
+mémoire centrale et le système d'exploitation suspend régulièrement l'exécution
+d'un programme pour continuer l'exécution d'un autre.
+        Les systèmes d'exploitation basés sur le traitement par « lots » (suites
+d'instructions et de données dans un ensemble de cartes perforées) sont
+apparus dans les années 1950. Un programme (avec ses données) n'est rien
+d'autre qu'une pile de cartes avec des indicateurs de début et de fin de lot.
+L'exécution d'un programme consiste à demander à un opérateur de placer
+la pile de cartes dans le lecteur, puis l'opérateur lance la lecture
+séquentielle des cartes. Le processeur central est au repos, durant les
+manipulations de l'opérateur.
+       Un batch est un lot de travaux à effectuer. L'opérateur compose
+un batch en posant les unes sur les autres les piles de cartes des différents
+programmes (avec leurs données) demandés par les utilisateurs. Il forme une
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                         54
+
+grande pile de cartes séparées par des marque-pages, en général une carte de
+couleur particulière, qu'il place ensuite dans le lecteur. Le regroupement de
+plusieurs programmes en un batch diminue les interventions de l'opérateur.
+
+        Dans un système basé sur les batchs, le cœur du système d'exploitation
+est un programme moniteur qui réside continuellement en mémoire centrale
+et permet à l'opérateur de demander le début ou l'arrêt de l'exécution du lot.
+À la fin de l'exécution de chaque tâche du lot, le moniteur effectue des travaux de
+nettoyage, puis lance l'exécution de la tâche suivante. Ainsi, l'opérateur intervient
+uniquement au début et à la fin du lot.
+
+       En raison de la grande différence de vitesse entre le processeur et les
+périphériques, dans un système d'exploitation batch, le processeur est inutilisé
+90 % du temps car les programmes attendent qu'un périphérique ou un autre
+termine les opérations. Avec ces systèmes d'exploitation il n'y a pas de
+concurrence entre les différentes tâches, la mise en œuvre de l'utilisation du
+processeur, de la mémoire et des périphériques est triviale mais loin d’être
+optimale. … Les systèmes d'exploitation batch sont adaptés à des applications
+nécessitant de très gros calculs mais peu d'implication de l'utilisateur :
+météo, statistiques, impôts... Les utilisateurs n'attendent pas immédiatement
+de résultats. Ils soumettent les demandes, puis reviennent ultérieurement
+collecter les résultats.
+
+2. Les systèmes d’exploitation multiprogrammées
+        Les systèmes d'exploitation multi-programmés sont apparus dans les
+années 1960. Le but recherché par de tels systèmes est d'augmenter
+l'efficacité de l'utilisation du processeur et des périphériques en utilisant
+la possibilité de les faire fonctionner en parallèle. Plusieurs programmes
+sont placés en mémoire centrale, et lorsque le programme en cours d'exécution
+attend un résultat de la part d'un périphérique, le système d'exploitation
+ordonne au processeur d'exécuter un autre programme.
+         Dans les systèmes d'exploitation multi-programmés, l'utilisation du
+processeur est partagée par planification (scheduling) : à chaque utilisation
+d'un périphérique, le système d'exploitation choisit quel programme va être
+exécuté. Ce choix se fait sur la base de priorités. Le système d'exploitation
+comporte un mécanisme de protection évitant ainsi que le programme en cours
+d'exécution ne lise ou n'écrive dans la mémoire attribuée à un autre
+programme. Les programmes sont exécutés dans un mode non-privilégié,
+dans lequel l'exécution de certaines instructions est interdite.
+   Les systèmes multi-programmés nécessitent un ordinateur et des
+périphériques mettant en œuvre la technique du DMA (direct memory
+access). Selon celle-ci, le processeur ordonne à un périphérique d'effectuer une
+opération, le résultat de l'opération est ensuite placé en mémoire centrale par le
+périphérique tandis que le processeur exécute d'autres instructions. Dans les
+systèmes multi-programmés, tout comme pour les systèmes batch,
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                       55
+
+l'utilisateur n'a que peu de contact avec les programmes et de maigres
+possibilités d'intervention.
+3. Les systèmes d’exploitation en temps partagé
+         Les systèmes d'exploitation en temps partagé sont apparus dans les
+années 1970. Ils sont utilisés dans des dispositifs interactifs où plusieurs
+utilisateurs sont simultanément en dialogue avec l'ordinateur. Un système
+d'exploitation en temps partagé est destiné à répondre rapidement aux
+demandes de l'utilisateur, et donner à chaque utilisateur l'impression qu'il
+est le seul à utiliser l'ordinateur.
+        Un système en temps partagé met en œuvre des techniques
+sophistiquées de multiprogrammation en vue de permettre l'utilisation
+interactive de l'ordinateur par plusieurs utilisateurs et plusieurs programmes
+simultanément.
+      L'arrivée, en 1970, de cette nouvelle génération de systèmes d'exploitation
+résulte d'une forte demande des consommateurs, et de la baisse du prix du
+matériel informatique ayant rendu possible sa réalisation. Dans les systèmes
+d'exploitation en temps partagé la notion de batch n'a que peu d'importance.
+Ces systèmes mettent en œuvre de nouveaux mécanismes d'utilisation du
+processeur et de la mémoire, qui leur permet de répondre rapidement à
+des demandes provenant simultanément d'un grand nombre d'utilisateurs.
+       Dans ces systèmes, tout comme dans la génération précédente,
+l'utilisation du processeur est planifiée. Cependant, contrairement aux
+systèmes de la génération précédente, dans les systèmes en temps partagé
+chaque programme est exécuté durant une tranche de temps déterminé,
+puis le système d'exploitation bascule sur l'exécution d'un autre
+programme, ce qui évite qu'un programme monopolise l'utilisation du
+processeur au service d'un utilisateur, entraînant des retards pour les autres
+utilisateurs.
+      Les systèmes d'exploitation en temps partagé mettent en œuvre la
+technique du swap : lorsque le programme en cours d'exécution a besoin
+de plus de mémoire que celle disponible, un autre programme inactif est
+retiré pour gagner de la place, le programme inactif est alors enregistré
+temporairement sur le disque dur. L'enregistrement sur disque provoque
+cependant une perte de temps non négligeable.
+4. Les systèmes d’exploitation en temps réel
+     Les systèmes d'exploitation temps-réel sont apparus au milieu des
+années 1970, notamment chez Hewlett-Packard (HP). Ils sont destinés aux
+dispositifs devant non seulement donner des résultats corrects, mais les
+donner dans un délai déterminé. Ces systèmes d'exploitation sont souvent
+utilisés par des ordinateurs reliés à un appareil externe (pilotes automatiques,
+robots industriels, applications vidéo et audio) pour lequel un retard de réponse
+de l'ordinateur entraînerait un échec de l'appareil.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.      Cours d’Informatique Générale / UNIBAS
+                                       56
+
+   Dans ces systèmes d'exploitation, l'accent est mis sur la durée nécessaire
+pour effectuer chaque opération, pour répondre aux demandes rapidement
+en vue de satisfaire aux contraintes de temps du système dans lequel il est
+utilisé. Certains services offerts par ces systèmes d'exploitation sont réalisés
+comme des logiciels applicatifs, et sont exécutés en concurrence avec ceux-ci.
+Un système d'exploitation temps réel autorise un contact direct entre les
+logiciels applicatifs et les périphériques. Dans certains systèmes temps réel
+les ressources sont réservées, évitant ainsi les ralentissements que
+provoqueraient les réservations à la volée, et garantissant que les
+ressources sont continuellement disponibles. Les systèmes d'exploitation
+temps-réel évitent d'utiliser la technique du swap en raison des risques de
+dépassement des délais. On peut citer les systèmes d’exploitation tels que :
+Symbian OS, PalmOS ? RTX, Windows, Embedded Linux, etc.
+
+5. Les systèmes d’exploitation distribuées
+        La baisse des prix du matériel informatique a permis, dans les années
+1990, la création de systèmes informatiques composés de plusieurs
+ordinateurs, et donc plusieurs processeurs, plusieurs mémoires, et de
+nombreux périphériques. Un système distribué permet le partage des
+ressources entre les ordinateurs. Un utilisateur d'un ordinateur bon marché
+peut se servir de ressources coûteuses existant sur un autre ordinateur. Un
+système distribué dirige l'utilisation des ressources de plusieurs ordinateurs à
+la fois. Il utilise les capacités d'un réseau informatique, contrôle un groupe de
+machines, et les fait apparaître comme une machine unique, virtuelle, de très
+grande capacité.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.      Cours d’Informatique Générale / UNIBAS
+                                        57
+
+           CHAPITRE V. NOTIONS SUR LES LOGICIELS
+                       INFORMATIQUES
+
+V.1. Définition et contexte d’étude
+
+       Le terme anglais « software » a été utilisé dès 1953 pour distinguer la
+partie modifiable de l'ordinateur, par opposition au « hardware » qui est la
+partie matérielle permanente. Il est apparu dans la littérature pendant les
+années 1960.
+        En français, le mot « logiciel » est formé en 1960 en France à partir des
+mots « logique » et « matériel » comme traduction par la Délégation à
+l’informatique chargée du Plan Calcul. Ce terme a été adopté par l'Académie
+française en 1972.
+       En informatique, un « logiciel » est un ensemble de            séquences
+d’instructions interprétables par une machine nécessaire à ces opérations. Le
+logiciel détermine donc les tâches qui peuvent être effectuées par la machine,
+ordonne son fonctionnement et lui procure ainsi son utilité fonctionnelle. Les
+séquences d’instructions appelées « programmes » ainsi que les données du
+logiciel sont ordinairement structurées en « fichiers ». La mise en œuvre des
+instructions du logiciel est appelée « exécutable ou exécution » et la machine
+chargée de cette mise en œuvre est appelée ordinateur ou calculateur.
+        Les logiciels sont créés et livrés à la demande d'un client ou sur
+l'initiative du producteur, et mis sur le marché, parfois gratuitement. En 1980,
+60 % de la production et 52 % de la consommation mondiale de logiciels est aux
+Etats-Unis. Les logiciels sont aussi distribués illégalement et la valeur
+marchande des produits ainsi distribués est parfois supérieure au chiffre
+d'affaires des producteurs. Les logiciels libres sont créés et distribués comme
+des commodités produites par coopération entre les utilisateurs et les auteurs.
+       Créer un logiciel est un travail intellectuel qui prend du temps. La création
+de logiciels est souvent le fait d'une équipe, qui suit une démarche logique et
+planifiée en vue d'obtenir un produit de bonne qualité dans les meilleurs
+délais.
+
+V.2. Caractéristiques d’un bon logiciel
+        La caractéristique d’un logiciel est un ensemble de traits dominants ou
+l’expression de la correspondance entre une cause (grandeur d‘entrée) et un effet
+(grandeur de sortie) dans la production ou le processus de développement des
+logiciels. Un produit logiciel doit s’évaluer en fonction de ce qu'il offre et de sa
+facilité d'utilisation. Un bon logiciel doit satisfaire les 3 catégories de critères
+suivants :
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                          58
+
+ Les critères Opérationnels : Cela nous indique dans quelle mesure le logiciel
+  fonctionne bien dans toutes ses opérations. Ces opérations peuvent être
+  mesurées entre autre par :
+        Fiabilité : (correction, justesse et conformité) : le logiciel est conforme à
+         ses spéciations, les résultats sont ceux attendus.
+        Robustesse et Sureté : (Pas dysfonctionnements ou ne plante pas) : le
+         logiciel fonctionne raisonnablement en toutes circonstances, rien de
+         catastrophique ne peut survenir, même en dehors des conditions
+         d'utilisation prévues.
+        Efficacité : ici, la question est : le logiciel fait-il bon usage de ses
+         ressources, en terme d’espace mémoire, et temps d’exécution.
+        Convivialité et Utilisabilité : Est-il facile et agréable à utiliser.
+        Sécurité : La sûreté (assurance) et la garantie offerte par un logiciel, ou
+         l’absence du danger lors de l’exploitation du logiciel.
+        Adéquation et validité : La conformité au maquettage du logiciel et au
+         but qu’on se propose.
+        Intégrité : L’état d’un logiciel a conservé sans altération ses qualités et
+         son degré originel. Autrement dit, C’est l’aptitude d’un logiciel à protéger
+         son code et ses données contre des accès non autorisés.
+ Les critères Transitionnels : Cet aspect est important lorsque le logiciel est
+  déplacé d'une plate-forme à une autre :
+        Documentabilité : A-t-il été précédé par un document de conception ou
+         une architecture modélisée pour son accessibilité.
+        Lisibilité et Clarté : Le logiciel est-il écrit proprement, et en respectant
+         les conventions de programmation.
+        Portabilité : Un même logiciel doit pouvoir fonctionner sur plusieurs
+         machines distinctes, tout en restant indépendant de son environnement
+         d'exécution.
+        Interopérabilité : Un logiciel doit pouvoir interagir en synergie avec
+         d'autres logiciels ; tout en remplissant de manière complète sa fonction.
+        Traçabilité : La possibilité de suivre un produit aux différents stades de
+         sa production, de sa transformation et de sa commercialisation.
+        Testabilité et vérifiabilité : c’est la possibilité de soumettre un logiciel à
+         une épreuve de confirmation de la tâche à exécuter.
+        Réutilisabilité - des parties peuvent être réutilisées pour développer
+         d’autres logiciels similaires.
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.           Cours d’Informatique Générale / UNIBAS
+                                           59
+
+ Les critères de la Maintenance : Cet aspect explique comment un logiciel a la
+  capacité de se maintenir dans une infrastructure et environnement en
+  constante évolution : maintenabilité, modularité, Flexibilité et Évolutivité.
+
+V.3. CLASSIFICATION DE LOGICIELS
+
+Les logiciels sont couramment classifiés en fonction de plusieurs critères :
+    La manière dont ils interagissent avec le matériel - (directement pour
+     les logiciels systèmes, ou indirectement pour les logiciels applicatifs ou
+     encore les middlewares) ;
+    L'utilisation cible - (les entreprises ou les particuliers) ;
+    Leur niveau de standardisation – (le logiciel standard et le logiciel
+     spécifique) ;
+    Selon les droits accordés par le contrat de licence (partagiciels,
+     propriétaires, libres ou open sources, gratuiciel) ;
+Ainsi, nous distinguerons plusieurs catégories des logiciels :
+1. Les logiciels systèmes
+       C’est un ensemble de programmes informatiques et de bibliothèques fournit
+un environnement permettant de créer et d'exécuter des logiciels applicatifs avec
+comme les fonctionnalités de base d'un ordinateur telles que la manipulation des
+fichiers et des périphériques qui sont apportées par le logiciel système. Exemple des
+logiciels systèmes : Les systèmes d’exploitation ; Les langages de
+programmation ; Les utilitaires, etc.
+       Le logiciel système est lancé avant le logiciel applicatif et joue le rôle
+d'intermédiaire entre le logiciel applicatif et le matériel de l'ordinateur. Les logiciels
+systèmes ont été créés dans le but de mieux adapter les ordinateurs aux besoins
+des programmeurs de logiciels applicatifs : Ils leur permettent de se concentrer sur
+les problèmes propres à l'application et faire abstraction des particularités de la
+machine. Contrairement au logiciel applicatif, le logiciel système est fortement
+dépendant de la machine. Les logiciels système offrent des services aux logiciels
+applicatifs et ne sont pas exploités directement par l'usager.
+2. Les logiciels applicatifs (application, appli, ou app)
+       C’est un programme informatique destiné à aider les usagers à effectuer
+une certaine tâche, directement utilisé pour réaliser une tâche, ou un ensemble de
+tâches élémentaires d'un même domaine ou formant un tout. Typiquement, un
+éditeur de texte, un navigateur web ; un lecteur multimédia ; un jeu vidéo sont des
+applications. Les applications s'exécutent en utilisant les services du système
+d’exploitation pour utiliser les ressources matérielles. Exemples : Les bases des
+données ; Le traitement du texte ; Les tableurs ; La bureautique ; Le « world
+wide web » ; etc.
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.           Cours d’Informatique Générale / UNIBAS
+                                           60
+
+3. Les logiciels middleware (logiciel médiateur ou intergiciel)
+        Le terme middleware vient de l’anglais middle (du milieu) et software
+(logiciel). En architecture informatique, un middleware est un logiciel tiers qui crée
+un réseau d'échange d'informations entre différentes applications informatiques. Le
+réseau est mis en œuvre par l'utilisation d'une même technique d'échange
+d'informations dans toutes les applications impliquées à l'aide de composants
+logiciels. Les solutions de middleware regroupent divers logiciels, notamment : Les
+API (Interface de Programmation d’application) ; Les serveurs d’applications ; Les
+logiciels d’intégration d’applications ; Les logiciels d’intégration des
+données ; Les logiciels de traitement transactionnel ; Les logiciels d’appel de
+procédure à distance (RPC – Remote Procedure Call) ; Les logiciels orientés
+message (MOM - Message Oriented Middleware) ; Les logiciels ORB (Object
+Request Broker).
+
+4. Les logiciels génériques (particuliers ou standard)
+     Ce sont des logiciels commercialisés comme les produits courants sur le
+marché informatique. Dans cette catégorie, on en distingue autant :
+ Logiciels amateurs : Il s’agit de logiciels développés par des « amateurs » (par
+  exemple par des gens passionnés ou des étudiants qui apprennent à
+  programmer). Bref, ce sont des logiciels sans impact économique significatif sur
+  l’ensemble.
+   Logiciels « jetables » ou « consommables » : Il s’agit de logiciels comme par
+    exemple les logiciels des traitements de texte ou les tableurs pour les
+    entreprises. Ces logiciels ne coûtent pas très cher, et peuvent être remplacés
+    facilement au sein d’une entreprise sans engendrer des risques majeurs. Ils
+    sont souvent largement diffusés.
+   Les progiciels : (contraction du mot « produit » ou « professionnel » et « logiciel »)
+    est un terme commercial qui désigne un logiciel professionnel standard et
+    applicatif généralisé aux multiples fonctions, composé d'un ensemble de
+    programmes paramétrables et destiné à être utilisé par une large clientèle.
+    Les progiciels mis en œuvre dans les entreprises couvrent principalement les
+    grands domaines suivants : les progiciels de gestion intégrée (ERP) ; les
+    progiciels de gestion de la relation client (CRM) ; les progiciels de gestion de la
+    chaine logistique (SCM) ; les progiciels de gestion des ressources humaines,
+    etc.
+5. Les logiciels spécifiques (pour entreprises)
+     Ce sont des logiciels développés sur commande à l'attention d'un client donné,
+par opposition à un logiciel standard, qui est un développé sur initiative d'un
+éditeur, et vendu à de nombreux clients …
+             La construction d'un logiciel spécifique est une prestation de services,
+qui consiste à fournir l'expertise technique et la main d'œuvre nécessaire. Ainsi, les
+fonctionnalités, le planning de livraison, et les conditions de paiement font l'objet
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.           Cours d’Informatique Générale / UNIBAS
+                                            61
+
+d'un contrat entre le prestataire et le client. Le consommateur est fortement
+impliqué dans le processus de construction et signe la réussite du travail. Dans
+cette catégorie, on en distingue autant :
+ Logiciels essentiels au fonctionnement d'une entreprise - Ce type de logiciel
+  est le fruit d'un investissement non négligeable d’une entreprise quelconque et
+  doit avoir un comportement fiable, sûr et sécurisé. Comme par exemple des
+  logiciels de sécurité, d’authentification biométrique, etc.
+ Logiciels critiques - Il s’agit de logiciels dont l’exécution est vitale, et dont une
+  panne peut avoir des conséquences dramatiques, comme des morts ou des
+  blessés graves, des dégâts matériels importants, ou des conséquences graves
+  pour l’environnement. Dans le monde de l'informatique, les logiciels qualifiés de
+  « critiques » se retrouvent par exemple dans : les systèmes de transport (pilotage
+  des avions, des trains, des logiciels embarqués automobiles, etc.) ; la production
+  d’énergie (contrôle des centrales nucléaires) ; la santé (chaînes de production de
+  médicaments, appareil médicaux (à rayonnement ou contrôle de dosages) ; le
+  système financier (paiement électronique) ; les applications militaires, etc.
+6. Les logiciels propriétaires (logiciel privatif voire logiciel privateur)
+       Ces logiciels ne permettent pas légalement ou techniquement, ou par
+quelque autre moyen que ce soit, d'exercer simultanément les quatre libertés
+logicielles (Exécution du logiciel pour tout type d'utilisation ; Etude et accès à son
+code source ; Distribution de copies ; ainsi que Modification et donc l'amélioration du
+code source). C’est par exemple : le système Windows.
+        Dans un logiciel propriétaire, les limitations légales, sont permises par le
+droit d’auteur, qui s’applique aux logiciels, et sont choisies par les ayants-droit
+souvent encadrées par un contrat de licence de l’utilisateur final (CLUF), nommé
+alors licence propriétaire (qui stipule les droits que l'acquéreur ou client obtient sur
+le logiciel ; et explicite souvent les droits que le propriétaire accorde, où les
+restrictions qu'il impose, suivant son point de vue). Bien que l'expression « acheter
+un logiciel » soit courante pour désigner ce type de transaction, elles concernent un
+droit d'utilisation limité au cadre établi par la licence ; le transfert de propriété
+n'existant qu'en cas de vente du droit d’auteur ou copyright associé.
+       Un logiciel propriétaire n'est pas nécessairement payant ; Elle a souvent,
+mais pas toujours, pour objectif de permettre le contrôle de la diffusion du logiciel
+qui se traduit par la vente de droit d’utilisation du logiciel et non pas la vente du
+produit en soi … Un logiciel étant un objet purement numérique, sa copie est
+souvent aussi simple que la copie de tout autre fichier informatique. Les diffuseurs
+de logiciels propriétaires ont par conséquent parfois recours à des systèmes de «
+gestion des droits numériques », qui limite les droits des utilisateurs souvent à
+l’exécution du logiciel pour uniquement des usages donnés. Ainsi, les logiciels
+propriétaires sont caractérisés sous deux formes :
+7. Les logiciels libres (open source)
+      Ce sont logiciels dont l'utilisation, l'étude, la modification et la duplication
+par autrui en vue de sa diffusion sont permises, techniquement et légalement afin
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.            Cours d’Informatique Générale / UNIBAS
+                                          62
+
+de garantir certaines libertés induites, dont le contrôle du programme par
+l'utilisateur et la possibilité de partage entre individus… Ces droits peuvent être
+simplement disponibles ou bien établis par une licence, dite « libre », basée sur le
+droit d’auteur. Les « licences copyleft » garantissent le maintien de ces droits aux
+utilisateurs même pour les travaux dérivés.
+             Parmi les logiciels libres les plus connus du grand public figurent :
+les systèmes d’exploitation (GNU/Linux, Androïd, la famille BSD, FreeBSD,
+OpenBSD, NetBSD, etc.) ; la suite bureautique LibreOffice ; le logiciel de retouche
+d’image GIMP ; le logiciel de modélisation 3D Blender ; l'éditeur de son Audacity ; les
+navigateurs web Mozilla Firefox et Chromium ; la messagerie électronique Mozilla
+Thunderbird ; les environnements de bureau GNOME et KDE ; les gestionnaires de
+basse de données Ingres, MySQL et PostgreSQL ; les langages de script PHP et
+Python ; le serveur HTTP Apache ; les systèmes de chiffrement OpenSSL, Tor et
+GnuPG ; etc.
+       Aujourd'hui, un logiciel est considéré comme libre, au sens de la Free
+Software Foundation, s'il confère à son utilisateur quatre libertés (numérotées de 0
+à 3) :
+     − La liberté d'exécuter le programme, pour tous les usages ;
+     − La liberté d'étudier le fonctionnement du programme et de l'adapter à ses
+       besoins ;
+     − La liberté de redistribuer des copies du programme (ce qui implique la
+       possibilité aussi bien de donner que de vendre des copies) ;
+     − La liberté d'améliorer le programme et de distribuer ces améliorations au
+       public, pour en faire profiter toute la communauté.
+
+8. Les logiciels gratuits (gratuiciel ou freeware)
+        Ce sont des logiciels propriétaires distribués gratuitement sans toutefois
+conférer à l'utilisateur certaines libertés d'usage associées au logiciel libre. Les
+termes « gratuiciel » ou « logiciel gratuit », dont l'usage est préconisé par la CGTN5
+sont des traductions du mot anglais « freeware », qui est une contraction de « free »
+(gratuit) et « software » (logiciel), contraction qui prête à confusion en anglais avec
+free software qui désigne en anglais un logiciel libre.
+             Parmi les logiciels gratuits les plus connus du grand public figurent :
+AVG Anti-virus ; Avast ; Ad-Aware SE, Spybot, Search et Destroy (logiciels anti-
+espions) ; DAEMON Tools (Emulateur de lecteur CD) ; Konvertor (Visualiseur et
+convertisseur pour tout type de fichier).
+            Un logiciel « freeware » peut fonctionner gratuitement pour une
+durée de temps illimité. L'auteur d'un logiciel freeware pourrait limiter les droits
+
+5
+   La Commission d'enrichissement de la langue française (appelée commission générale de
+terminologie et de néologie jusqu'en 2015) est une assemblée française de personnalités
+bénévoles au centre d'un dispositif interministériel dont la mission est de favoriser
+l'enrichissement de la langue française.
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                         63
+
+de copie et/ou de distribution de son logiciel. En tant que logiciel propriétaire le
+principe de freeware peut être une stratégie de marketing fondée sur des revenus
+indirects (support, produits liés, ...) plutôt que sur la vente du logiciel.
+9. Les logiciels partagiciel (shareware ou contribuciel) :
+        Ce sont des logiciels qui peut être utilisé gratuitement généralement durant
+une certaine période. Après cette période d'essai, l'utilisateur doit rétribuer
+l'auteur s'il veut continuer à utiliser le logiciel. Lorsque les fonctionnalités du
+shareware sont limitées, on parle aussi de logiciel de démonstration.
+        Shareware est un mot valise anglais composé de to « share » (partager) et
+de « ware », troncation de « software ». Un shareware peut facilement être
+confondu avec un freeware, un logiciel abandonné (abandonware) ou un
+logiciel libre. Un shareware n'est pas forcément un logiciel libre, car il peut être
+livré sans son code source. De plus, lorsque celui-ci est fourni, le droit de le
+redistribuer n'est pas automatiquement accordé. Enfin, la distribution du logiciel
+lui-même n'est pas forcément libre.
+        Un shareware peut être utilisé pendant une durée limitée ou un nombre
+d'utilisations qui sont indiquées par l'auteur. Cela permet de tester les
+fonctionnalités et voir si elles correspondent à ses besoins. Au bout de cette
+période d'essai, il est possible soit de payer une contribution (souvent modique) et
+continuer à utiliser le logiciel, soit de le désinstaller. Il est également permis de
+distribuer le logiciel à une autre personne, toujours pour essai … Hormis
+l'utilisation légale du produit, le paiement de la licence peut aussi débloquer un
+certain nombre de fonctionnalités jusqu'alors inaccessibles. Parmi les logiciels
+gratuits les plus connus du grand public figurent : Doom ; Winzip ; UltraISO ;
+Mirc ; etc.
+       Certains sharewares se contentent de rappeler à intervalles plus ou moins
+fréquents, à l'aide par exemple d'alertes ou de dialogues, que la période d'essai est
+échue. Ils sont parfois appelés « harceliciels », « nagware » ou « annoyware » …
+Certains auteurs ne demandent que l'envoi d'une carte postale comme paiement de
+la licence, dans ce cas on parle de « carticiel » (postcardware). D'autres
+suggèrent simplement que l'utilisateur verse une contribution à l'organisation
+charitable ou humanitaire de son choix (careware).
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.         Cours d’Informatique Générale / UNIBAS
+                                       64
+
+      CHAPITRE VI. NOTIONS SUR L’INTERNET ET WWW
+
+VI.1. Definition et Context etude
+         Le terme « Internet » est d'origine américaine et est dérivé du concept
+« Internetting » (« interconnecter des réseaux »), dont la première utilisation
+documentée remonte à octobre 1972 par Robert E. Kahn, dans le cadre de la
+première conférence sur la communication des ordinateurs ( ICCC : International
+Conference on Computer Communications) à Washington .
+        Cependant les origines exactes du terme restent à déterminer. Toutefois,
+c'est le 1er janvier 1983 que le nom « Internet », déjà en usage pour désigner
+l'ensemble du réseau ARPANAET et de plusieurs réseaux informatiques,
+devient officiel.
+
+Ainsi, l’Internet est un réseau de communication international qui permet
+tant aux entreprises qu’aux particuliers de communiquer entre eux grâce à un
+ensemble de réseaux et d’ordinateurs. L’architecture du réseau est dite » Client-
+serveur » c’est-à-dire que les ordinateurs envoient leurs données (les serveurs)
+vers d’autres ordinateurs équipés de logiciel client ou navigateur (browser).
+
+VI.2. Historique de l’Internet
+        Depuis des années 50, durant la guerre froide, le gouvernement
+américain se demandait comment protéger l’appareil de l’Etat contre une
+attaque nucléaire soviétique. C’est en 1964 qu’un chercheur proposa de créer
+un réseau de communication sans centre physique, le principe était de
+créer un ensemble de nœuds interconnectés.
+
+− En 1969, est créé le réseau Arpanet, ancêtre de l’Internet actuel, était un
+  réseau financé par le département américain de la défense, et une de ses
+  agences : « Advenced Reserch Projets Agency ». Il s’agit d’un réseau reliant
+  les centres de recherche de l’armée et les universités américaines l’ARPA a
+  développé le concept de l’Internet selon le principe précédent (nœuds
+  interconnectés), puis adapta en 1972 le protocole nommé TCP/IP
+  (Transport control protocol / Internet prptocol) : nouvelle technologie de
+  commutation de données par paquets et nouveau protocole d’échange. Tel
+  protocole est né en réponse au défi de trouver un langage commun à tous les
+  réseaux existant à l’échelle mondiale, et qui fut l’objet de la conférence
+  internationale qui eut lieu en 1972, à Washington.
+
+− En 1974, c’est la naissance de l’Internet dans sa forme actuelle, aussi appelé
+  « l’Internet privé ». Le réseau se développe alors rapidement, surtout au
+  Etats-Unis, auprès des centres scientifiques et universitaires, et il a été
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.      Cours d’Informatique Générale / UNIBAS
+                                               65
+
+     financé par la National Scientific fondations, une agence du gouvernement
+     américain.
+
+− En 1980, il est décidé que la protocole TCP/IP ne serait plus un secret
+  militaire et tomberait donc dans le domaine public. A partir de ce
+  moment n’importe qui pouvait utiliser le réseau gratuitement. Pour les
+  entreprises (à l’exception des constructeurs informatiques et de quelques
+  points avancés, il a fallu attendre 1994 pour que les opérateurs privés
+  proposent des services de connexion à l’Internet. D’abord limité à une offre
+  professionnelle relativement onéreuse, son accès s’est considérablement
+  élargi avec l’apparition de nombreuses offres grand public et d’une nouvelle
+  activité : les opérateurs d’accès au réseau. La transformation d’Internet à
+  envahit les quatre coins du monde, le nombre d’internautes ne cesse
+  d’augmenter de manière spectaculaire, et de plus en plus d’entreprises y
+  construisent leurs sites. Les petites structures comme les multinationales y
+  en ont compris le potentiel en terme de communication, d’information et de
+  réduction de coûts. Effectivement, ses diverses applications offrent des
+  opportunités qui étaient inimaginables auparavant.
+
+− En 1990, on voit l’apparition du premier navigateur web (browser), mêlant
+  texte et image. Cette même année, la National Science Foundation (NSF)
+  mandate une compagnie pour enregistrer « les noms de domaine ». À la fin
+  des années 1990, des sociétés pionnières comme Yahoo, Amazon, eBay,
+  Netscape et Aol, sont devenues célèbres.
+
+− En 1994, avec l'introduction de Netscape, doté d'une interface
+  graphique spectaculaire, qui intègre les ressources multimédias,
+  l’Internet connaît une explosion phénoménale. L'expression « Internet » sert
+  à désigner un ensemble de réseaux connectés entre eux. La collectivité y a
+  maintenant accès, par l’intermédiaire des fournisseurs de services
+  (Wanadoo, free…).Le début des années 1990 marque la naissance de
+  l'aspect le plus connu d'Internet aujourd'hui : le WEB ou INTERNET
+  PUBLIC, un ensemble de pages en HTML mélangeant du texte, des liens,
+  des images, adressables via une URL et accessibles via le protocole HTTP.
+  Ces standards, développés au CERN par TIM BERNERS-LEE et Robert
+  CAILLIAU devinrent rapidement populaires grâce au développement au
+  NCSA par MARC ANDREESSEN et Eric Bina du premier « navigateur
+  multimédia Mosaïc6».
+
+
+
+
+6 C'est en mars 1993 qu'est inventé Mosaic, le premier des navigateurs grand public, doté
+d'une interface graphique. Son auteur est Marc Andreessen, étudiant à l'Université de l'Illinois,
+et assistant au NCSA (National Center for Supercomputing Applications).
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.            Cours d’Informatique Générale / UNIBAS
+                                           66
+
+VI.3. Les protocoles utilisés sur Internet
+         Les protocoles logiciels utilisés sur internet sont les conventions ou
+langage de communication structurant les échanges d'informations nécessaires au
+transfert des contenus applicatifs pour l'usager final. Ils permettent notamment
+d'identifier les interfaces (donc les machines), de s'assurer de la réception
+des données envoyées, et de l'interopérabilité.
+        Un protocole est un ensemble de règles qui définissent un langage afin de
+faire communiquer plusieurs ordinateurs . Ils sont définis par des normes ouvertes
+en informatique. Chaque protocole a des fonctions propres et, ensemble, ils
+fournissent un éventail de moyens permettant de répondre à la multiplicité
+et à la diversité des besoins sur internet. Les principaux sont les suivants,
+classés selon leur couche (IP, TCP et UDP) ; couches applicatives :
+    IP (Internet Protocol) aussi appelé IPv4 ou IPv6 : protocole réseau qui définit
+     le mode d'échange élémentaire entre les ordinateurs participant au réseau en
+     leur donnant une adresse unique sur celui-ci. Cependant, en raison de
+     l'épuisement des adresses IPv4, une nouvelle norme voit le jour ; nommée IPv6,
+     elle permet d'accueillir un plus grand nombre d'utilisateurs.
+    TCP (Transfer Control Protocol) : responsable de l'établissement de la connexion
+     et du contrôle de la transmission. C'est un protocole de remise fiable. Il s'assure
+     que le destinataire a bien reçu les données, au contraire d'UDP.
+    HTTP (HyperText Transfer Protocol) : protocole mis en œuvre pour le
+     chargement des pages web.
+    HTTPS : pendant du HTTP pour la navigation en mode sécurisé.
+    FTP (File Transfer Protocol) : protocole utilisé pour le transfert de fichiers sur
+     Internet.
+    SFTP (SSH File Transfer Protocol) : protocole bâtît sur SSH pour le transfert de
+     fichiers sécurisé.
+    SMTP (Simple Mail        Transfer   Protocol) :   mode   d'échange   du   courrier
+     électronique en envoi.
+    POP3 (Post Office Protocol version 3) : mode d'échange du courrier électronique
+     en réception.
+    IMAP (Internet Message Access Protocol) : un autre mode d'échange de courrier
+     électronique.
+    IRC (Internet Relay Chat) : protocole de discussion instantanée.
+    NNTP (Network News Transfer Protocol) : protocole de transfert de message
+     utilisé par les forums de discussion Usenet.
+    UDP (User Datagramme Protocol) : permet de communiquer, de façon non fiable
+     mais légère, par petits datagrammes.
+    DNS (Domain Name System) : système de résolution de noms Internet.
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                           67
+
+    ICMP (Internet Control Message Protocol) : protocole de contrôle du protocole IP.
+
+VI.4. Finalités de l’Internet
+      Rappelons qu’un réseau Internet est une interconnexion des ordinateurs
+dans le monde permettant le travail collaboratif et/ou les échanges entre
+personnes géographiquement séparées. Ceci étant posé, l’Internet a été
+développé pour plusieurs raisons à savoir :
+    La connectivité : C’est une technique qui permet à plusieurs types
+     d’équipements informatiques utilisant des logiciels différents de
+     communiquer entre eux,
+    Le partage des ressources : C’est un procédé qui permet la segmentation
+     d’un système informatique pouvant être employée par différents utilisateurs.
+     Autrement dit, C’est rendre accessible à une communauté d'utilisateurs des
+     programmes, des données et des équipements informatiques (i.e. un
+     ensemble de ressources) indépendamment de leur localisation.
+    La modularité : (Ajout graduel des performances), elle consiste à utiliser un
+     ensemble restreint d’appareils généraux pour tester leurs performances.
+     L’implantation simple : C’est une solution générale qui permet d’installer
+     aisément et sans aucune difficulté les équipements informatiques selon
+     leurs différentes configurations.
+
+    L’utilisation facile : C’est une disponibilité d’outils de communication
+     libérant les utilisateurs de la connaissance de la structure du réseau ;
+     La fiabilité7 : C’est la capacité de détection et correction d’un dispositif à
+     fonctionner sans défaillance (sauvegardes, duplication). Autrement dit, C’est
+     une disposition du fonctionnement même en cas de problèmes matériels
+     (c’est par exemple, les applications militaires, bancaires, le contrôle des
+     centrales nucléaires ou aérien...).
+     Une mise à jour aisée : C’est un procédé qui permet aux réseaux
+     informatiques d’évoluer et d’être modifiée selon les besoins des utilisateurs
+     et des nouveaux équipements.
+    La réduction des coûts : l’accès à distance des matériels informatiques a
+     considérablement réduit les coûts de ces derniers, en permettant ainsi aux
+     différents utilisateurs de s’en procurer au prix standard (le PC, par exemple).
+
+
+
+
+7 En informatique par exemple, la fiabilité s’exprime par une durée qui correspond au
+temps moyen de bon fonctionnement d’un équipement.
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.        Cours d’Informatique Générale / UNIBAS
+                                         68
+
+VI.5. Avantages de l’Internet
+      Les avantages offerts par l’Internet sont multiples et vont, en fait bien
+au-delà des privilèges quotidiens de l’informatique. Le problème de la
+communication entre les personnes et les services sont capital pour les
+entreprises depuis toujours, désormais l’adoption du travail sur l’Internet est
+capable de lui apporter une réponse définitive. Ainsi, parmi les principaux
+avantages de l’Internet, on peut citer :
+    Une meilleure communication (Facile et rapide) : Grâce à l’internet, La
+     communication entre les personnes est dorénavant plus aisée et
+     l’information circule plus librement pour tout le monde y compris les
+     différentes collaborations entre les entreprises et pour ne citer que cela.
+     Mêmes les personnes travaillant dans des distincts endroits, en voyage ou
+     chez eux, peuvent aussitôt se connecter au réseau et communiquer plus
+     facilement en utilisant les supports et matériels de communication (tels que,
+     les emails, la messagerie instantanée, les lignes téléphoniques, la
+     vidéoconférence ou le Skype…) pour pleinement en profiter.
+    Une Optimisation et gain du temps : l’Internet permet identiquement
+     d’améliorer et de gagner du temps sur le partage des fichiers et des données
+     informatiques. Dorénavant, les utilisateurs arrivent à trouver et partager les
+     données dont ils ont besoin. Depuis des années, cette fonctionnalité du
+     réseau internet est devenue la plus utilisée par les grandes organisations
+     afin de maintenir leurs données d’une manière organisée facilitant les accès
+     à distance pour les personnes souhaitées.
+    Une productivité accrue : Un réseau Internet permet de donner à toute
+     activité humaine, une vitesse d’exécution assez importante de la tâche ;
+     l’exactitude et la fiabilité des outils informatiques entrainent des économies
+     du temps et d’argent à tous les niveaux de l’activité humaine,
+     particulièrement l’allégement des tâches à effectuer. Tout de même, il
+     implique une communication permettant aux équipes professionnelles de se
+     consacrer foncièrement à leurs missions. Beaucoup d’obstacles qui
+     entravaient jusqu’alors la productivité tombent d’eux-mêmes, et les énergies
+     de l’entreprise peuvent alors se concentrer sur les véritables objectifs.
+     Succinct, Les réseaux informatiques créent une chaine de collaboration
+     entre les équipes.
+    L’accès et la connexion à distance : Avec un réseau Internet, le téléphone
+     n’est plus le seul moyen de contact avec les autres de partout dans le
+     monde. Il permet sitôt de faire des partages de fichiers et des ressources et y
+     avoir accès même à distance. Il est tout aussi possible, pour qui le veut, de
+     faire des mises à jour de tous ces fichiers conservés. Cela ouvre par exemple,
+     un accès aux différentes sociétés et clients qui souhaitent avoir des
+     renseignements concernant leurs activités. Désormais un professionnel peut
+     se connecter et trouver les informations ou les contacts dont il a besoin.
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.      Cours d’Informatique Générale / UNIBAS
+                                         69
+
+     Une prise sur l’avenir : Les économies mondiales sont de plus en plus
+     dépendantes de l’informatique. Nous ne pouvons ignorer que le réseau
+     Internet est devenu aujourd’hui le moteur de la croissance de l’activiste
+     mondiale. L’Internet devient de plus en plus la figure parfaite qui intègre les
+     nouvelles technologies au fur et à mesure de leur apparition, ils évoluent et
+     s’adaptent aux réalités de toute activité humaine, y compris celle de
+     l’entreprise.
+    Un investissement efficace : La mise en réseau d’un plus grand nombre de
+     nos équipements (tels que ordinateurs, imprimantes, scanners, systèmes de
+     stockage et de sauvegarde des données, télécopieurs et système
+     téléphonique), nous ouvre l’accès à l’ère numérique en nous permettant de
+     connecter à d’autres utilisateurs ainsi qu’à maintes convenances. Elle
+     permet aussi de profiter des versions réseaux des logiciels, toujours moins
+     coûteuses que leurs équivalents poste à poste.
+
+VI.6. Inconvénients de l’Internet
+        Les conséquences fâcheuses et les nombreux risques que comportent
+l’Internet peuvent désavantageusement contribuer au mauvais fonctionnement
+de ces derniers et par conséquent altérer la qualité de son service ainsi son
+perfectionnement. Voici quelques-uns des inconvénients majeurs de l’Internet :
+
+    Problèmes de sécurité : L'un des inconvénients majeurs de l’Internet est les
+     problèmes de sécurité impliqués. Si un ordinateur est connecté sur un
+     réseau, il serait plus vulnérable à toutes sortes d’attaques. De même, un
+     pirate informatique peut obtenir tous les renseignements qu’il désire ou
+     alors un accès non autorisé à l'aide de différents outils. En cas de grandes
+     organisations, divers logiciels de sécurité réseau sont utilisés pour empêcher
+     le vol de données confidentielles et les classifiées.
+    La propagation rapide de virus informatiques : Si tout système
+     informatique dans un réseau est affecté par un virus informatique, il y a une
+     menace possible d'autres systèmes obtenant aussi affectés. Les virus se
+     répandent sur un réseau facilement en raison de l'interconnexion des postes
+     de travail. Un tel écart peut être dangereux si les ordinateurs ont importante
+     base de données qui peut être corrompues par le virus.
+
+    Dépendance sur le serveur de fichiers principal : Dans le cas où le
+     serveur de fichiers principal d'un réseau informatique tombe en panne, le
+     système devient inutile. Dans le cas de grands réseaux, le serveur de fichiers
+     doit être un puissant ordinateur, ce qui rend souvent coûteux la conception
+     et la configuration d’un système informatique.
+
+
+
+
+    Prof. Dr. YENDE RAPHAEL Grevisse, PhD.      Cours d’Informatique Générale / UNIBAS
+                                       70
+
+VI.7. Le WWW
+        Le World Wide Web (littéralement la « toile (d’araignée) mondiale »,
+abrégé www ou Web ou encore Internet public ), la toile mondiale ou la toile,
+est un système hypertexte public fonctionnant sur Internet. Le Web permet de
+consulter, avec un navigateur, des pages accessibles sur des sites. L’image de
+la toile d’araignée vient des hyperliens qui lient les pages web entre elles.
+
+       Le Web n’est qu’une des applications d’Internet, distincte d’autres
+applications comme le courrier électronique, la messagerie instantanée et le
+partage des fichiers. Inventé en 1990 par TIM BERNERS-LEE suivi
+de ROBERT CAILLIAU, c'est le Web qui a rendu les médias grand public
+attentifs à Internet. Depuis, le Web est fréquemment identifié par le mot
+Internet; en particulier, le mot « Toile » est souvent utilisé dans les textes non
+techniques sans qu'il soit clair si l'auteur désigne le Web ou Internet.
+
+VI.4.1. Services web
+       Un service web est une technologie client-serveur         fondée sur les
+protocoles du web et tache offerte, on peut alors citer :
+
+     Un annuaire web : est un site web répertoriant d’autres sites web sur la
+      toile.
+
+     Un moteur de recherche : est un site permettant de rechercher des mots
+      dans l’ensemble des sites web.
+     Un portail web : est un site web tentant de regrouper la plus large
+      palette d’informations et de services possibles dans un site web. Certains
+      portails sont thématiques.
+     Un agrégateur web : est un site web qui sélectionne, organise et,
+      éventuellement, valide des pages concernant un sujet précis, et les met
+      en forme de façon ergonomique ou attractive.
+     Un blog : est une partie de site web où sont régulièrement publiés des
+      articles personnels.
+     Un Webmail : est site web fournissant les fonctionnalités d'un client de
+      messagerie de courrier électronique.
+
+     Un wiki : est un site web éditable par les utilisateurs
+
+
+
+
+ Prof. Dr. YENDE RAPHAEL Grevisse, PhD.       Cours d’Informatique Générale / UNIBAS
+                                                         71
+
+                                                BIBLIOGRAPHIE
+
+           1. D. GROTH, D. MCBEE, J. MCBEE, D. BARNETT, Cabling: The Complete
+              Guide to Network Wiring, Sybex, 2001;
+           2. Fontenelle, « Éloge d'Admontons, in Éloges, cité par Luke Flichy, Une histoire
+              de la communication moderne », Espace public et vie privée, La Découverte,
+              1997, p. 17-18.
+           3. Guy DE SAINT DENIS, « La télégraphie Chappe », ouvrage collectif sous la
+              direction, Éditions de l'Est de Strasbourg, 1993, 441 pages ;
+           4. HALSALL, Fred; Data Communications, Computer Networks and Open
+              Systems, 4th edition; Addison-Wesley, 1996, 907 pages, ISBN 0-201-42293;
+           5. Hawke's Bay Herald, “The Pulsion Telephone”, Nouvelle-Zélande, Vol. XXV,
+              Iss 8583, 30 janvier 1890, p. 3;
+           6. J. L. HARRINGTON, Ethernet Networking Clearly Explained, Morgan
+              Kaufmann; Publishers, 1999;
+           7. James F. KUROSE, et Keith W. ROSS; Computer Networking: A Top-Down
+              Approach, 5th Edition, Addison-Wesley, 2008, ISBN 013-607967-9;
+           8. Michael Wolfe, « A Television Station High-Quality Audio Wiring System »,
+              AES Convention papers, no 83/2544, 1987;
+           9. Nicolas Ochoa, « Le principe de libre-circulation de l'information - Recherche
+              sur les fondements juridiques d'Internet », HALSHS, 2016 ;
+           10.           Richard Taillet, Loïc Villain et Pascal Febvre, « Spectre », 2013, p. 635
+           11. Richard Waller, édité par R.T. Gunther, “The Postthumous Works of
+              Robert Hooke, M.D., S.R.S. 1705 Réimprimédans “Early Science In Oxford”,
+              R.T. Gunther, Vol. 6, p. 185;
+           12. Robert Sève, « Science de la couleur : Aspects physiques et perceptifs,
+              Marseille, Chalagam, 2009, p. 121-122.
+           13. Ronda Hauben, “The                  Internet:   On   its   International   Origins   and
+              Collaborative Vision”, 2004.
+           14.           Saint-Jean A.O. Djungu, Réseaux par la pratique, Ed. CRIA, 2014
+           15. STALLINGS, et William; Data and Computer Communications; Prentice
+              Hall, 1997, 798 pages, ISBN 0-12-415425-3;
+           16. ST-PIERRE, Armand et STÉPHANOS ; Réseaux locaux : Une introduction
+              à la communication des données et à Internet ; Édition Vermette inc., 1996,
+              378 pages, ISBN 2-89416-097-6 ;
+           17. TANENBAUM et al, les Réseaux, 5e édition ; Pearson Éducation France,
+              2011, 970 pages ;
+
+
+
+
+               Prof. Dr. YENDE RAPHAEL Grevisse, PhD.           Cours d’Informatique Générale / UNIBAS
+
+View publication stats
