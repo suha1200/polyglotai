@@ -7,7 +7,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv()
 
-INDEX_NAME = "polyglotai-v1"
+INDEX_NAME = "polyglotai-v3"
 MODEL_NAME = "BAAI/bge-m3"
 DOC_PREFIX = "Represent this passage for retrieval: "
 QUERY_PREFIX = "Represent this question for retrieving relevant passages: "
@@ -22,7 +22,7 @@ def embed_texts(model: SentenceTransformer, texts: List[str], is_query: bool) ->
 def main():
     # --- user input (edit these for quick tests) ---
     namespace = "fr"   # "en" | "fr" | "ar" | "all"
-    query = "Quelles sont les implications éthiques de l’IA dans la santé ?"
+    query = "Quelle est la définition de la pensée computationnelle ?"
     top_k = 5
     # ----------------------------------------------
 
