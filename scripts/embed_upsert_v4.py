@@ -9,8 +9,9 @@ from sentence_transformers import SentenceTransformer
 from pinecone import Pinecone, ServerlessSpec
 
 # ==== Config (v4) ====
-INFILE = Path("data/processed/chunks_all.v4.jsonl")
-INDEX_NAME = "polyglotai-v4"
+INFILE = Path("data/processed/chunks_all_clean.jsonl")
+#INFILE = Path("data/unified/chunks_all.v4.jsonl")
+INDEX_NAME = "polyglotai-v6"
 MODEL_NAME = "BAAI/bge-m3"
 DIM = 1024
 METRIC = "cosine"

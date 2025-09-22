@@ -58,3 +58,21 @@ PolyglotAI/
 * Build minimal working RAG prototype
 
 
+1) Clean (post-chunk):
+   python scripts/clean_chunks.py --infile data/processed/chunks_all.v4.jsonl \
+     --outfile data/processed/chunks_all_clean.jsonl \
+     --discarded_outfile data/processed/chunks_all_discarded.jsonl
+
+2) (If cleaning pre-chunk instead)
+   python scripts/clean_merged_corpus.py --infile data/unified/merged_corpus.jsonl \
+     --outfile data/unified/merged_corpus_clean.jsonl \
+     --discarded_outfile data/unified/merged_corpus_discarded.jsonl
+   # then chunk_en/fr/ar + merge_chunks.py
+
+3) Embed to Pinecone:
+   python scripts/embed_upsert_v4.py --infile data/processed/chunks_all_clean.jsonl \
+     --index polyglotai-v6 --batch_size 32 --namespace_by_lang true --show_progress true
+
+4) Smoke test with rerank:
+   python scripts/search_v5.py --lang all --top_k 20 --show_n 5 \
+     --content_file data/processed/chunks_all_clean.jsonl
